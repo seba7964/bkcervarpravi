@@ -1,0 +1,36 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+
+    var ListOfNews = CurrentPage.Children().OrderBy("CreateDate desc");
+}
+<div class="container col-md-8 col-md-offset-2">
+    <div class="container-fluid " style="margin:50px auto;">
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+
+                <h1>@CurrentPage.Name</h1>
+                @CurrentPage.newsOverviewBodyText
+                <div class="panel-body">
+
+                    @foreach (var news in ListOfNews)
+                    {
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <a href="@news.Url">
+                                    <h3 class="panel-title">
+                                        @news.Name
+                                    </h3>
+                                </a>
+                            </div>
+                            <div class="panel-body">
+                                @Umbraco.Truncate(@news.newsText, 100)
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

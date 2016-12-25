@@ -1,0 +1,22 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+<div class="container col-md-8 col-md-offset-2">
+    <div class="container-fluid" style="margin:50px auto;">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="col-lg-4 pull-right" style="text-align:right;">
+                    <h6>Created at: @Model.Content.CreateDate.ToString("D")</h6>
+                    <h6>Last edited: @Model.Content.UpdateDate.ToString("D")</h6>
+                </div>
+                <h2>@CurrentPage.Name</h2>
+            </div>
+            <div class="panel-body">
+                @CurrentPage.newsText
+            </div>
+
+        </div>
+    </div>
+</div>
+

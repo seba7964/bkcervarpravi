@@ -1,0 +1,40 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="~/scripts/lightbox.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/lightbox.css" rel="stylesheet" />
+    <link href="~/css/theme.less" rel="stylesheet">
+    <link href="~/css/cervar-theme.less" rel="stylesheet">
+    <link href="~/css/cervar-bootstrap-theme.css" rel="stylesheet">
+    <link href="~/css/Custom.css" rel="stylesheet" />
+    <title>@CurrentPage.pageTitle | @CurrentPage.siteName</title>
+</head>
+<body>
+
+    <header>
+        @Html.Partial("Navigation")
+    </header>
+
+    <div style="width: 100% !important;">
+        @RenderBody()
+    </div>
+    @*
+    <footer class="hidden-xs hidden-sm" style="text-align:right;position: fixed;bottom: 0px;right: 20px;">
+        <p>Powered by:Infosit</p>
+    </footer>
+    <footer class="hidden-md hidden-lg hidden-xl" style="text-align:right; margin-right: 20px;">
+        <p>Powered by:Infosit</p>
+    </footer>
+*@
+</body>
+</html>

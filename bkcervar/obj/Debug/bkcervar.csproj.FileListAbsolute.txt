@@ -85,3 +85,4 @@ c:\users\seba\documents\visual studio 2015\Projects\bkcervar\bkcervar\bin\Micros
 c:\users\seba\documents\visual studio 2015\Projects\bkcervar\bkcervar\obj\Debug\bkcervar.csprojResolveAssemblyReference.cache
 c:\users\seba\documents\visual studio 2015\Projects\bkcervar\bkcervar\obj\Debug\bkcervar.dll
 c:\users\seba\documents\visual studio 2015\Projects\bkcervar\bkcervar\obj\Debug\bkcervar.pdb
+c:\users\seba\documents\visual studio 2015\Projects\bkcervar\bkcervar\bin\UIOMatic.dll

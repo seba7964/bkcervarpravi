@@ -1,0 +1,71 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+
+@*
+    This snippet displays a list of links of the pages immediately under the top-most page in the content tree.
+    This is the home page for a standard website.
+    It also highlights the current active page/section in the navigation with the css class "current".
+*@
+
+@{ var selection = CurrentPage.Site().Children.Where("Visible"); }
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="nav navbar-brand">
+            <a href="#">
+                <img style="max-height: 53px;margin-top: -13px;margin-left: -10px;" src="~/images/logoSmaller.png"></img>
+            </a>
+        </div>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="glyphicon glyphicon-menu-hamburger"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse"  id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                @{
+                    var HomePage = Model.Content.AncestorsOrSelf(1).FirstOrDefault();
+                 @*   var SearchResultPage = Model.Content.AncestorOrSelf(1).Children().Where(x => x.DocumentTypeAlias == "SearchResults").First(); *@
+                var languages = Umbraco.TypedContentAtRoot();
+                }
+                <li role="presentation" class=""><a href="@HomePage.Url">@HomePage.GetPropertyValue("pageTitle")</a></li>
+                @foreach (var item in selection)
+                {
+                    <li  role="presentation" class="@(item.IsAncestorOrSelf(CurrentPage) ? "active current" : "")">
+                        <a href="@item.Url">@item.Name</a>
+                    </li>
+                }
+                <li style="margin-right:15px;">
+                  @*  <form action="@SearchResultPage.UrlAbsolute()" class="navbar-form navbar-left" method="post" target="_blank">*@
+                        <div class="form-group col-xs-10">
+                            <input type="search" class="form-control" placeholder='@Umbraco.Field("#Search Placeholder")' name="query" />
+                        </div>
+                        <button type="submit" class="btn btn-default col-xs-2"><span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </form>
+                </li>
+            </ul>
+            <div class="button-group pull-right">
+                @foreach (var language in languages)
+                {
+                    if (language.HasProperty("imageFlag"))
+                        {
+                            var imgId = language.GetPropertyValue("imageFlag");
+                            var img = Umbraco.Media(imgId);
+                            <div class="btn">
+                                <a href="@language.Url" style="max-height: 50px;margin:auto;">
+                                    <img src="@img.Url" alt="@img.Name"/>
+                                </a>
+                            </div>
+                        }
+                }
+            </div>
+        </div>
+    </div>
+</nav>
+@* Search *@
+
+
+
+
+
+
