@@ -1,126 +1,59 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+﻿@using bkcervar.Models;
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
     Layout = "Master.cshtml";
     <div class="container col-md-8 col-xs-12 col-sm-12 col-md-offset-2 col-sm-offset-0 col-xs-offset-0">
         <div class="container-fluid" style="margin:50px auto;">
             <div class="panel panel-default">
                 <table class="table table-bordered" style="text-align:center; background:white;">
+
+
                     <thead class="thead">
                     <th style="text-align: center;">Redni broj</th>
                     <th style="text-align: center;">Ime i prezime igrača</th>
                     <th style="text-align: center;">Reg. broj</th>
                     <th style="text-align: center;">Adresa stanovanja</th>
                     </thead>
+
+                    @{
+
+                        PetaPoco.Database db = new PetaPoco.Database("umbracoDbDSN");
+
+
+                        var sql = (PetaPoco.Sql.Builder)
+
+                        .Append("SELECT * FROM Igraci4");
+
+
+                    }
+
+                    @foreach (var a in db.Query<Igrac4>("SELECT * FROM Igraci4"))
+                    {
+
                     <tr>
-                        <td>1.</td>
-                        <td>Ivan Labinjan</td>
-                        <td>12</td>
-                        <td>Červar 2A, 52449 Červar Porat</td>
+                        <td>@a.Red_broj</td>
+                        <td>@a.ImePrezime</td>
+                        <td>@a.Reg_broj</td>
+                        <td>@a.Adresa</td>
                     </tr>
-                    <tr>
-                        <td>2.</td>
-                        <td>Nelo Bernobić</td>
-                        <td>24</td>
-                        <td>Creska ul. 16, 52440 Poreč - Parenzo</td>
-                    </tr>
-                    <tr>
-                        <td>3.</td>
-                        <td>Robi Matošović</td>
-                        <td>26</td>
-                        <td>Červar 5, 52449 Červar Porat</td>
-                    </tr>
-                    <tr>
-                        <td>4.</td>
-                        <td>Vinko Matošović</td>
-                        <td>27</td>
-                        <td>Červar 4, 52449 Červar Porat</td>
-                    </tr>
-                    <tr>
-                        <td>5.</td>
-                        <td>Ante Martinić Dragan</td>
-                        <td>28</td>
-                        <td>Bašarinka 10A, 52446 Nova Vas</td>
-                    </tr>
-                    <tr>
-                        <td>6.</td>
-                        <td>Livio Labinjan</td>
-                        <td>31</td>
-                        <td>Červar 2A, 52449 Červar Porat</td>
-                    </tr>
-                    <tr>
-                        <td>7.</td>
-                        <td>Francesco Graziotto</td>
-                        <td>34</td>
-                        <td>Červar 1, 52449 Červar Porat</td>
-                    </tr>
-                    <tr>
-                        <td>8.</td>
-                        <td>Dean Pulin</td>
-                        <td>35</td>
-                        <td>Červar 25, 52449 Červar Porat</td>
-                    </tr>
-                    <tr>
-                        <td>9.</td>
-                        <td>Franko Legović</td>
-                        <td>119</td>
-                        <td>Bračka ul. 11, 52440 Poreč - Parenzo</td>
-                    </tr>
-                    <tr>
-                        <td>10.</td>
-                        <td>Stjepan Matijašec</td>
-                        <td>121</td>
-                        <td>Ul. Gregovo I-3, 52449 Červar Porat</td>
-                    </tr>
-                    <tr>
-                        <td>11.</td>
-                        <td>Dino Krepčić</td>
-                        <td>123</td>
-                        <td>Hvarska ul. 1, 52440 Poreč - Parenzo</td>
-                    </tr>
-                    <tr>
-                        <td>12.</td>
-                        <td>Željko Radanović</td>
-                        <td>209</td>
-                        <td>Trg kneza Branimira 5, 52440 Poreč - Parenzo</td>
-                    </tr>
-                    <tr>
-                        <td>13.</td>
-                        <td>Dalibor Čitar</td>
-                        <td>426</td>
-                        <td>Ul. Špadići 72, 52440 Poreč - Parenzo</td>
-                    </tr>
-                    <tr>
-                        <td>14.</td>
-                        <td>Daniel Malinarić</td>
-                        <td>1593</td>
-                        <td>Červar 28, 52449 Červar Porat</td>
-                    </tr>
-                    <tr>
-                        <td>15.</td>
-                        <td>Marko Martinić</td>
-                        <td>1596</td>
-                        <td>Bašarinka 10A, 52446 Nova Vas</td>
-                    </tr>
-                    <tr>
-                        <td>16.</td>
-                        <td>Davor Salamun</td>
-                        <td>1850</td>
-                        <td>Creska ul. 14, 52440 Poreč - Parenzo</td>
-                    </tr>
-                    <tr>
-                        <td>17.</td>
-                        <td>Vilijam Bibulić</td>
-                        <td>2152</td>
-                        <td>Ul. Kunfin 3, Vabriga, 52465 Tar - Vabriga</td>
-                    </tr>
-                    <tr>
-                        <td>18.</td>
-                        <td>Asim (Neno) Čajić</td>
-                        <td>2762</td>
-                        <td>Červar 25, 52449 Červar Porat</td>
-                    </tr>
+
+                    }
+
+
+
                 </table>
             </div>
         </div>
     </div>
 }
+
+
+
+
+
+
+
+
+
+
+
