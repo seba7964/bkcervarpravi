@@ -1,14 +1,35 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<bkcervar.Models.ContactModel>
-
 @using (Html.BeginUmbracoForm<bkcervar.Controllers.ContactSurfaceController>("HandleFormPost"))
 {
-    
-        <label for="emailFrom">Email</label> @Html.TextBoxFor(x => x.Email, new { @class = "emailFrom form-control", placeholder = "Email" })
-        <label for="NameFrom">Name</label> @Html.TextBoxFor(x => x.Name, new { @class = "contactName form-control", placeholder = "Name" })
-        <br />
-        @Html.TextAreaFor(x => x.Message, new { @class = "contactMessage form-control", placeholder = "Message" })
-        <input type="submit" value="submit" />
-    
+    <div class="container col-md-6 col-sm-10 col-xs-12 col-md-offset-3 col-sm-offset-0 col-xs-offset-0">
+        <div class="container-fluid" style="margin:50px auto;">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="panel-body">
+                        
+                            <div class="form-group">
+                                <label for="emailFrom">Email</label>@Html.TextBoxFor(x => x.Email, new { @class = "emailFrom form-control", placeholder = "Email" })
+                            </div>
+                            <div class="form-group">
+                                <label for="contactName">@Umbraco.Field("#Name Placeholder")</label>@Html.TextBoxFor(x => x.Name, new { @class = "contactName form-control", placeholder = "Name" })
+                            </div>
+                            @*
+                                <div class="form-group">
+                                    <label for="dropdownGender">Select Gender</label>
+                                    @Html.DropDownListFor(x => x.SelectedGender, Model.ListOfGenders, "--Select Gender--", new { @class = "dropdownGender form-control" })
+                                </div>
+                            *@
+                            <div class="form-group">
+                                <label for="contactMessage">@Umbraco.Field("#Message Placeholder")</label>
+                                @Html.TextAreaFor(x => x.Message, new { @class = "contactMessage form-control", placeholder = "Message" })
+                            </div>
+                            <div class="form-group">                        <input class="btn btn-primary" type="Submit" value="Submit" /></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 }
 
 

@@ -85,3 +85,4 @@ C:\Users\Seba\documents\visual studio 2015\Projects\bkcervar\bkcervar\bin\UrlRew
 C:\Users\Seba\documents\visual studio 2015\Projects\bkcervar\bkcervar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Seba\documents\visual studio 2015\Projects\bkcervar\bkcervar\obj\Debug\bkcervar.dll
 C:\Users\Seba\documents\visual studio 2015\Projects\bkcervar\bkcervar\obj\Debug\bkcervar.pdb
+C:\Users\Seba\documents\visual studio 2015\Projects\bkcervar\bkcervar\obj\Debug\bkcervar.csprojResolveAssemblyReference.cache

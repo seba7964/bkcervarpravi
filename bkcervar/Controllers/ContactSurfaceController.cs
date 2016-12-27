@@ -21,7 +21,7 @@ namespace bkcervar.Controllers
         public ActionResult HandleFormPost(ContactModel model)
         {
 
-            var newComment = Services.ContentService.CreateContent(model.Id + " " + model.Name, CurrentPage.Parent.Id, "contactFormula");
+            var newComment = Services.ContentService.CreateContent(model.Name + " - " + DateTime.Now.ToString("dd-MM-yyyy HH:mm"), CurrentPage.Id, "contactFormula");
             newComment.SetValue("emailFrom", model.Email);
             newComment.SetValue("contactName", model.Name);
             newComment.SetValue("contactMessage", model.Message);
