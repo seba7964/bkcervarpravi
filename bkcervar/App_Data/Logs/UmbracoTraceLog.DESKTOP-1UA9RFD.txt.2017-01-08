@@ -1,0 +1,19 @@
+﻿ 2017-01-08 00:25:55,588 [P16828/D3/T420] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-07 00:25:55
+ 2017-01-08 04:25:55,605 [P16828/D3/T420] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-07 04:25:55
+ 2017-01-08 08:25:55,618 [P16828/D3/T304] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-07 08:25:55
+ 2017-01-08 12:25:55,634 [P16828/D3/T96] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-07 12:25:55
+ 2017-01-08 16:25:55,635 [P16828/D3/T457] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-07 16:25:55
+ 2017-01-08 20:25:55,651 [P16828/D3/T561] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-07 20:25:55
+ 2017-01-08 22:00:58,260 [P16828/D3/T457] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username seba7964@hotmail.com from IP address ::1
+ 2017-01-08 22:00:58,260 [P16828/D3/T457] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: seba7964@hotmail.com logged in from IP address ::1
+ 2017-01-08 22:00:58,260 [P16828/D3/T412] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username seba7964@hotmail.com from IP address ::1
+ 2017-01-08 22:00:58,260 [P16828/D3/T412] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: seba7964@hotmail.com logged in from IP address ::1
+ 2017-01-08 22:05:07,864 [P16828/D3/T426] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Popis Igrača' with Id '1095' has been published.
+ 2017-01-08 22:05:11,912 [P16828/D3/T563] INFO  umbraco.content - Save Xml to file...
+ 2017-01-08 22:05:11,926 [P16828/D3/T563] INFO  umbraco.content - Saved Xml to file.
+ 2017-01-08 22:05:15,203 [P16828/D3/T457] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Novosti' with Id '1096' has been published.
+ 2017-01-08 22:05:19,256 [P16828/D3/T10] INFO  umbraco.content - Save Xml to file...
+ 2017-01-08 22:05:19,279 [P16828/D3/T10] INFO  umbraco.content - Saved Xml to file.
+ 2017-01-08 22:05:26,895 [P16828/D3/T512] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Kontakt' with Id '1099' has been published.
+ 2017-01-08 22:05:30,955 [P16828/D3/T468] INFO  umbraco.content - Save Xml to file...
+ 2017-01-08 22:05:30,958 [P16828/D3/T468] INFO  umbraco.content - Saved Xml to file.

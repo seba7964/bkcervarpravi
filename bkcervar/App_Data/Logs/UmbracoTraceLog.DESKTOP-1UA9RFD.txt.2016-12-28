@@ -1,0 +1,119 @@
+﻿ 2016-12-28 00:12:30,277 [P5068/D11/T112] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: seba7964@hotmail.com, IP Address: ::1
+ 2016-12-28 00:53:42,453 [P5068/D11/T18] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username seba7964@hotmail.com from IP address ::1
+ 2016-12-28 00:53:42,454 [P5068/D11/T18] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: seba7964@hotmail.com logged in from IP address ::1
+ 2016-12-28 00:53:42,513 [P5068/D11/T66] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-12-28 00:53:42,513 [P5068/D11/T66] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-12-28 00:53:48,363 [P5068/D11/T50] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.HealthCheck.HealthCheck
+ 2016-12-28 00:53:48,418 [P5068/D11/T50] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.HealthCheck.HealthCheck, found 0 (took 54ms)
+ 2016-12-28 00:53:55,184 [P5068/D11/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2016-12-28 00:53:55,184 [P5068/D11/T65] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2016-12-28 00:53:55,184 [P5068/D11/T112] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2016-12-28 00:53:55,184 [P5068/D11/T112] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2016-12-28 00:53:55,184 [P5068/D11/T112] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2016-12-28 00:54:27,019 [P5068/D11/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2016-12-28 00:54:27,020 [P5068/D11/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 1ms)
+ 2016-12-28 00:55:43,199 [P5068/D11/T10] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2016-12-28 00:55:43,199 [P5068/D11/T10] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2016-12-28 00:55:43,199 [P5068/D11/T10] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2016-12-28 00:55:43,199 [P5068/D11/T10] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2016-12-28 01:02:06,080 [P5068/D11/T160] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-12-28 01:02:06,081 [P5068/D11/T160] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-12-28 01:02:06,503 [P5068/D11/T76] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2016-12-28 01:02:06,503 [P5068/D11/T76] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2016-12-28 01:02:06,503 [P5068/D11/T76] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2016-12-28 01:02:06,534 [P5068/D11/T112] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2016-12-28 01:02:06,534 [P5068/D11/T112] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2016-12-28 01:02:33,902 [P5068/D11/T112] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2016-12-28 01:02:33,902 [P5068/D11/T112] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2016-12-28 01:02:33,902 [P5068/D11/T112] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2016-12-28 01:02:33,902 [P5068/D11/T112] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2016-12-28 01:02:44,509 [P5068/D11/T65] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-12-28 01:02:44,509 [P5068/D11/T65] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-12-28 01:06:33,295 [P5068/D11/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'EN' with Id '1056' has been published.
+ 2016-12-28 01:06:37,361 [P5068/D11/T10] INFO  umbraco.content - Save Xml to file...
+ 2016-12-28 01:06:37,374 [P5068/D11/T10] INFO  umbraco.content - Saved Xml to file.
+ 2016-12-28 01:06:46,235 [P5068/D11/T90] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'HR' with Id '1094' has been published.
+ 2016-12-28 01:06:50,282 [P5068/D11/T14] INFO  umbraco.content - Save Xml to file...
+ 2016-12-28 01:06:50,294 [P5068/D11/T14] INFO  umbraco.content - Saved Xml to file.
+ 2016-12-28 01:25:46,268 [P5068/D11/T27] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: seba7964@hotmail.com, IP Address: ::1
+ 2016-12-28 01:25:52,271 [P5068/D11/T195] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: seba7964@hotmail.com, IP Address: ::1
+ 2016-12-28 03:45:27,612 [P5068/D11/T89] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-27 03:45:27
+ 2016-12-28 07:45:27,626 [P5068/D11/T89] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-27 07:45:27
+ 2016-12-28 11:45:27,642 [P5068/D11/T71] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-27 11:45:27
+ 2016-12-28 12:45:56,342 [P5068/D11/T45] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-12-28 13:56:12,260 [P5068/D11/T24] INFO  Umbraco.Core.MainDom - Stopping...
+ 2016-12-28 13:56:12,263 [P5068/D11/T24] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2016-12-28 13:56:12,264 [P5068/D11/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2016-12-28 13:56:12,264 [P5068/D11/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2016-12-28 13:56:12,264 [P5068/D11/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-12-28 13:56:12,264 [P5068/D11/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-12-28 13:56:12,264 [P5068/D11/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-12-28 13:56:12,264 [P5068/D11/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-12-28 13:56:12,266 [P5068/D11/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-12-28 13:56:12,266 [P5068/D11/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2016-12-28 13:56:12,269 [P5068/D11/T45] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-12-28 13:56:12,302 [P5068/D11/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-12-28 13:56:12,302 [P5068/D11/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-12-28 13:56:12,302 [P5068/D11/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-12-28 13:56:12,302 [P5068/D11/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-12-28 13:56:12,303 [P5068/D11/T160] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-12-28 13:56:12,303 [P5068/D11/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-12-28 13:56:16,947 [P5068/D12/T48] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on DESKTOP-1UA9RFD
+ 2016-12-28 13:56:16,973 [P5068/D12/T48] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-12-28 13:56:16,992 [P5068/D12/T48] INFO  Umbraco.Core.PluginManager - Hash determined (took 20ms)
+ 2016-12-28 13:56:17,135 [P5068/D12/T48] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2016-12-28 13:56:17,136 [P5068/D12/T48] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2016-12-28 13:56:17,147 [P5068/D12/T48] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-12-28 13:56:17,628 [P5068/D12/T48] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 480ms)
+ 2016-12-28 13:56:17,791 [P5068/D12/T48] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-12-28 13:56:17,793 [P5068/D12/T48] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2016-12-28 13:56:17,796 [P5068/D12/T48] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-12-28 13:56:17,799 [P5068/D12/T48] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 2ms)
+ 2016-12-28 13:56:17,807 [P5068/D12/T48] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-12-28 13:56:17,903 [P5068/D12/T48] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 95ms)
+ 2016-12-28 13:56:17,903 [P5068/D12/T48] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-12-28 13:56:17,977 [P5068/D12/T48] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 73ms)
+ 2016-12-28 13:56:18,112 [P5068/D12/T48] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-12-28 13:56:18,113 [P5068/D12/T48] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2016-12-28 13:56:18,113 [P5068/D12/T48] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-12-28 13:56:18,114 [P5068/D12/T48] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-12-28 13:56:19,272 [P5068/D12/T48] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-12-28 13:56:19,473 [P5068/D12/T48] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-12-28 13:56:19,593 [P5068/D12/T48] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-12-28 13:56:19,839 [P5068/D12/T48] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-12-28 13:56:19,863 [P5068/D12/T48] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-12-28 13:56:19,866 [P5068/D12/T48] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2016-12-28 13:56:19,996 [P5068/D12/T48] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-12-28 13:56:20,004 [P5068/D12/T48] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-12-28 13:56:20,016 [P5068/D12/T48] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3124ms)
+ 2016-12-28 13:56:22,577 [P5068/D12/T27] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:51959/umbraco (UmbracoModule request)
+ 2016-12-28 13:56:23,119 [P5068/D12/T27] INFO  umbraco.content - Load Xml from file...
+ 2016-12-28 13:56:23,120 [P5068/D12/T27] INFO  umbraco.content - Loaded Xml from file.
+ 2016-12-28 13:56:23,539 [P5068/D12/T91] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-12-28 13:56:23,544 [P5068/D12/T91] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 4ms)
+ 2016-12-28 13:56:27,165 [P5068/D12/T160] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-12-28 13:56:42,389 [P5068/D11/T142] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2016-12-28 13:57:23,215 [P5068/D12/T178] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-27 13:57:23
+ 2016-12-28 14:01:12,721 [P5068/D12/T90] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-12-28 14:01:45,232 [P5068/D12/T22] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-12-28 14:02:04,143 [P5068/D12/T57] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-12-28 14:07:03,842 [P5068/D12/T178] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-12-28 17:57:23,230 [P5068/D12/T54] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-27 17:57:23
+ 2016-12-28 21:57:23,240 [P5068/D12/T61] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-27 21:57:23

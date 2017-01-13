@@ -332,11 +332,66 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\lightbox.css" />
+    <Content Include="images\close.png" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\next.png" />
+    <Content Include="images\prev.png" />
+    <Content Include="Media\1001\14895592_1467343349946003_1094442107_o.jpg" />
+    <Content Include="Media\1001\14895592_1467343349946003_1094442107_o_big-thumb.jpg" />
+    <Content Include="Media\1001\14895592_1467343349946003_1094442107_o_thumb.jpg" />
+    <Content Include="Media\1002\1234.jpg" />
+    <Content Include="Media\1002\1234_thumb.jpg" />
+    <Content Include="Media\1003\1234.jpg" />
+    <Content Include="Media\1003\1234_thumb.jpg" />
+    <Content Include="Media\1004\5.jpg" />
+    <Content Include="Media\1004\5_big-thumb.jpg" />
+    <Content Include="Media\1004\5_thumb.jpg" />
+    <Content Include="Media\1005\2233.jpg" />
+    <Content Include="Media\1005\2233_big-thumb.jpg" />
+    <Content Include="Media\1005\2233_thumb.jpg" />
+    <Content Include="Media\1006\5.jpg" />
+    <Content Include="Media\1006\5_big-thumb.jpg" />
+    <Content Include="Media\1006\5_thumb.jpg" />
+    <Content Include="Media\1007\logosmaller.png" />
+    <Content Include="Media\1007\logosmaller_thumb.jpg" />
+    <Content Include="Media\1007\logosmaller_thumb.png" />
+    <Content Include="Media\1008\eng.png" />
+    <Content Include="Media\1009\hr.png" />
+    <Content Include="Media\1010\496515271.png" />
+    <Content Include="Media\1011\bernobic.png" />
+    <Content Include="Media\1011\bernobic_thumb.jpg" />
+    <Content Include="Media\1011\bernobic_thumb.png" />
+    <Content Include="Media\1012\levarija_cervar.png" />
+    <Content Include="Media\1012\levarija_cervar_big-thumb.jpg" />
+    <Content Include="Media\1012\levarija_cervar_big-thumb.png" />
+    <Content Include="Media\1012\levarija_cervar_thumb.jpg" />
+    <Content Include="Media\1012\levarija_cervar_thumb.png" />
+    <Content Include="Media\1013\istra_alf.png" />
+    <Content Include="Media\1013\istra_alf_thumb.jpg" />
+    <Content Include="Media\1013\istra_alf_thumb.png" />
+    <Content Include="Media\1014\istra_alf_pravi.png" />
+    <Content Include="Media\1014\istra_alf_pravi_thumb.jpg" />
+    <Content Include="Media\1014\istra_alf_pravi_thumb.png" />
+    <Content Include="Media\1015\elmas.png" />
+    <Content Include="Media\1015\elmas_thumb.jpg" />
+    <Content Include="Media\1015\elmas_thumb.png" />
+    <Content Include="Media\1016\5.jpg" />
+    <Content Include="Media\1016\5_big-thumb.jpg" />
+    <Content Include="Media\1016\5_thumb.jpg" />
+    <Content Include="Media\1017\2233.jpg" />
+    <Content Include="Media\1017\2233_big-thumb.jpg" />
+    <Content Include="Media\1017\2233_thumb.jpg" />
+    <Content Include="Media\1018\1234.jpg" />
+    <Content Include="Media\1018\1234_thumb.jpg" />
+    <Content Include="Media\181\5.jpg" />
+    <Content Include="Media\192\14895592_1467343349946003_1094442107_o.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="App_Plugins\ModelsBuilder\package.manifest" />
+    <Content Include="scripts\lightbox.js" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
     <Content Include="Views\Partials\Grid\Editors\Rte.cshtml" />
@@ -550,6 +605,9 @@
     <Content Include="Views\ContactFormula.cshtml" />
     <Content Include="Views\ContactPage.cshtml" />
     <Content Include="Views\Partials\ContactForm.cshtml" />
+    <Content Include="Views\Search.cshtml" />
+    <Content Include="Areas\images\Views\web.config" />
+    <Content Include="Views\MacroPartials\Gallery.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -3291,6 +3349,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Areas\images\imagesAreaRegistration.cs" />
     <Compile Include="Controllers\ContactSurfaceController.cs" />
     <Compile Include="Models\ContactModel.cs" />
     <Compile Include="Models\Generated\Database.cs">
@@ -3314,8 +3373,10 @@
     <Folder Include="App_Data\NuGetBackup\20161225-183222\Umbraco_Client\" />
     <Folder Include="App_Data\packages\created\" />
     <Folder Include="App_Data\TEMP\Install\" />
+    <Folder Include="Areas\images\Controllers\" />
+    <Folder Include="Areas\images\Models\" />
+    <Folder Include="Areas\images\Views\Shared\" />
     <Folder Include="obj\Debug\TempPE\" />
-    <Folder Include="Views\MacroPartials\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

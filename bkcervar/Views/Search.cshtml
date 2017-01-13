@@ -1,0 +1,38 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+
+    <div class="container col-md-8 col-md-offset-2">
+    <div class="container-fluid" style="margin:50px auto;">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+@*
+    @{
+
+        var searchQuery = Request.QueryString["query"];
+
+        if (!string.IsNullOrEmpty(searchQuery))
+        {
+            <div class="searchresults">
+                <h2>Your search results for <strong>@searchQuery</strong></h2>
+                <ul>
+                    @foreach (var result in Umbraco.Search(searchQuery))
+                    {
+                        <li>
+                            <a href="@result.Url">@result.Name</a>
+                        </li>
+                    }
+
+                </ul>
+*@  @Umbraco.RenderMacro("ezSearch")
+                        </div>
+               
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
