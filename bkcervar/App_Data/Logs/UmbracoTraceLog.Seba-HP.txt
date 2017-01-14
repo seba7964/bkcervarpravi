@@ -3637,3 +3637,1623 @@ _shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needF
    at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
    at System.Threading.ThreadPoolWorkQueue.Dispatch()
    at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-14 20:17:35,918 [P4792/D11/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-14 20:17:35,918 [P4792/D11/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-14 20:17:35,920 [P4792/D11/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-14 20:17:35,920 [P4792/D11/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-14 20:17:35,920 [P4792/D11/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-14 20:17:35,920 [P4792/D11/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-14 20:17:35,920 [P4792/D11/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-14 20:17:35,920 [P4792/D11/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-14 20:17:35,920 [P4792/D11/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-14 20:17:35,922 [P4792/D11/T53] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-01-14 20:17:35,922 [P4792/D11/T53] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-01-14 20:17:35,922 [P4792/D11/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-14 20:17:35,923 [P4792/D11/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-14 20:17:35,923 [P4792/D11/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-14 20:17:35,923 [P4792/D11/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-14 20:17:35,923 [P4792/D11/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-14 20:17:35,923 [P4792/D11/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-14 20:18:00,432 [P4792/D12/T33] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on SEBA-HP
+ 2017-01-14 20:18:00,462 [P4792/D12/T33] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-14 20:18:00,482 [P4792/D12/T33] INFO  Umbraco.Core.PluginManager - Hash determined (took 20ms)
+ 2017-01-14 20:18:00,545 [P4792/D12/T33] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-14 20:18:00,547 [P4792/D12/T33] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-14 20:18:00,556 [P4792/D12/T33] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-14 20:18:01,011 [P4792/D12/T33] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 454ms)
+ 2017-01-14 20:18:01,033 [P4792/D12/T33] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-14 20:18:01,041 [P4792/D12/T33] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+ 2017-01-14 20:18:01,042 [P4792/D12/T33] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-14 20:18:01,048 [P4792/D12/T33] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-01-14 20:18:01,066 [P4792/D12/T33] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-14 20:18:01,071 [P4792/D12/T33] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+ 2017-01-14 20:18:01,072 [P4792/D12/T33] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-14 20:18:01,086 [P4792/D12/T33] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 13ms)
+ 2017-01-14 20:18:01,124 [P4792/D12/T33] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-14 20:18:01,130 [P4792/D12/T33] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 5ms)
+ 2017-01-14 20:18:01,131 [P4792/D12/T33] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-14 20:18:01,137 [P4792/D12/T33] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 6ms)
+ 2017-01-14 20:18:02,188 [P4792/D12/T33] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:18:02,551 [P4792/D12/T33] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:18:02,563 [P4792/D12/T33] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-14 20:18:02,598 [P4792/D12/T33] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-14 20:18:02,609 [P4792/D12/T33] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 10ms)
+ 2017-01-14 20:18:02,893 [P4792/D12/T33] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-14 20:18:02,894 [P4792/D12/T33] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-14 20:18:02,944 [P4792/D12/T33] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:18:03,102 [P4792/D12/T33] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2761ms)
+ 2017-01-14 20:18:03,231 [P4792/D12/T60] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:51959/umbraco (UmbracoModule request)
+ 2017-01-14 20:18:06,084 [P4792/D11/T70] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Users\Seba\AppData\Local\Temp\Temporary ASP.NET Files\vs\b6336f30\1fb1d438\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-14 20:21:56,499 [P5112/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on SEBA-HP
+ 2017-01-14 20:21:56,527 [P5112/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-14 20:21:56,548 [P5112/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 21ms)
+ 2017-01-14 20:21:56,736 [P5112/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-14 20:21:56,738 [P5112/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-14 20:21:56,744 [P5112/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-14 20:21:56,813 [P5112/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 69ms)
+ 2017-01-14 20:21:56,873 [P5112/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-14 20:21:56,874 [P5112/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-01-14 20:21:56,875 [P5112/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-14 20:21:56,877 [P5112/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-01-14 20:21:56,898 [P5112/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-14 20:21:56,916 [P5112/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 18ms)
+ 2017-01-14 20:21:56,917 [P5112/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-14 20:21:56,940 [P5112/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 23ms)
+ 2017-01-14 20:21:57,369 [P5112/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-14 20:21:57,370 [P5112/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-01-14 20:21:57,371 [P5112/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-14 20:21:57,372 [P5112/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2017-01-14 20:21:59,450 [P5112/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:22:00,018 [P5112/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:22:00,053 [P5112/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-14 20:22:00,116 [P5112/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-14 20:22:00,119 [P5112/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 3ms)
+ 2017-01-14 20:22:00,493 [P5112/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-14 20:22:00,493 [P5112/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-14 20:22:00,549 [P5112/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:22:00,747 [P5112/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4329ms)
+ 2017-01-14 20:22:02,377 [P5112/D2/T12] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:51959/umbraco (UmbracoModule request)
+ 2017-01-14 20:22:02,501 [P5112/D2/T11] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-01-14 20:22:02,502 [P5112/D2/T11] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-01-14 20:22:03,289 [P5112/D2/T12] INFO  umbraco.content - Loading content from database...
+ 2017-01-14 20:22:05,432 [P5112/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-14 20:22:05,590 [P5112/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 158ms)
+ 2017-01-14 20:22:20,179 [P5112/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on SEBA-HP
+ 2017-01-14 20:22:20,208 [P5112/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-14 20:22:20,222 [P5112/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 14ms)
+ 2017-01-14 20:22:20,288 [P5112/D3/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-14 20:22:20,289 [P5112/D3/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-14 20:22:20,296 [P5112/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-14 20:22:20,354 [P5112/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 57ms)
+ 2017-01-14 20:22:20,414 [P5112/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-14 20:22:20,417 [P5112/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+ 2017-01-14 20:22:20,418 [P5112/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-14 20:22:20,421 [P5112/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 3ms)
+ 2017-01-14 20:22:20,441 [P5112/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-14 20:22:20,456 [P5112/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 14ms)
+ 2017-01-14 20:22:20,456 [P5112/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-14 20:22:20,478 [P5112/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 21ms)
+ 2017-01-14 20:22:20,555 [P5112/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-14 20:22:20,557 [P5112/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-01-14 20:22:20,557 [P5112/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-14 20:22:20,558 [P5112/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2017-01-14 20:22:21,887 [P5112/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:22:22,391 [P5112/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:22:22,412 [P5112/D3/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-14 20:22:22,457 [P5112/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-14 20:22:22,459 [P5112/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2017-01-14 20:22:22,690 [P5112/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-14 20:22:22,690 [P5112/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-14 20:22:22,748 [P5112/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:22:22,943 [P5112/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2848ms)
+ 2017-01-14 20:22:23,789 [P5112/D3/T19] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:51959/umbraco (UmbracoModule request)
+ 2017-01-14 20:22:24,390 [P5112/D3/T19] INFO  umbraco.content - Load Xml from file...
+ 2017-01-14 20:22:24,395 [P5112/D3/T19] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-14 20:22:25,270 [P5112/D3/T19] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-14 20:22:25,272 [P5112/D3/T19] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2017-01-14 20:22:32,519 [P5112/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating (immediate)
+ 2017-01-14 20:22:32,519 [P5112/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Cancelling tasks
+ 2017-01-14 20:22:32,620 [P5112/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks cancelled, terminated
+ 2017-01-14 20:22:32,621 [P5112/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating (immediate)
+ 2017-01-14 20:22:32,621 [P5112/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Cancelling tasks
+ 2017-01-14 20:22:32,724 [P5112/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks cancelled, terminated
+ 2017-01-14 20:22:32,724 [P5112/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating (immediate)
+ 2017-01-14 20:22:32,724 [P5112/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Cancelling tasks
+ 2017-01-14 20:22:32,833 [P5112/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks cancelled, terminated
+ 2017-01-14 20:22:32,833 [P5112/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating (immediate)
+ 2017-01-14 20:22:32,833 [P5112/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Cancelling tasks
+ 2017-01-14 20:22:32,943 [P5112/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks cancelled, terminated
+ 2017-01-14 20:22:32,943 [P5112/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating (immediate)
+ 2017-01-14 20:22:32,943 [P5112/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Cancelling tasks
+ 2017-01-14 20:22:33,055 [P5112/D2/T11] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks cancelled, terminated
+ 2017-01-14 20:22:33,055 [P5112/D2/T11] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-14 20:22:33,650 [P5112/D3/T19] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 20:23:24,517 [P5112/D3/T24] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-13 20:23:24
+ 2017-01-14 20:27:25,595 [P5112/D3/T11] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 20:31:42,896 [P5112/D3/T56] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Seba\Documents\Visual Studio 2015\Projects\bkcervar\bkcervarpravi\bkcervar\Views\Home.cshtml(9): error CS0246: The type or namespace name 'WebsiteContentParser' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-01-14 20:32:14,935 [P5112/D3/T56] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Seba\Documents\Visual Studio 2015\Projects\bkcervar\bkcervarpravi\bkcervar\Views\Home.cshtml(8): error CS0246: The type or namespace name 'WebsiteContentParser' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-01-14 20:34:44,748 [P5112/D3/T19] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Seba\Documents\Visual Studio 2015\Projects\bkcervar\bkcervarpravi\bkcervar\Views\Home.cshtml(8): error CS0103: The name 'WebsiteContentParser' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-01-14 20:35:30,044 [P5112/D3/T71] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Seba\Documents\Visual Studio 2015\Projects\bkcervar\bkcervarpravi\bkcervar\Views\Home.cshtml(9): error CS0103: The name 'WebsiteContentParser' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-01-14 20:36:49,133 [P5112/D3/T82] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Seba\Documents\Visual Studio 2015\Projects\bkcervar\bkcervarpravi\bkcervar\Views\Home.cshtml(2): error CS0246: The type or namespace name 'WebsiteContentParser' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-01-14 20:40:27,203 [P5112/D3/T56] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Seba\Documents\Visual Studio 2015\Projects\bkcervar\bkcervarpravi\bkcervar\Views\Home.cshtml(9): error CS0103: The name 'WebsiteContentParser' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-01-14 20:44:11,993 [P5112/D3/T88] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Seba\Documents\Visual Studio 2015\Projects\bkcervar\bkcervarpravi\bkcervar\Views\Home.cshtml(9): error CS0103: The name 'CurrentStanding' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-01-14 20:44:43,836 [P5112/D3/T87] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-14 20:44:43,836 [P5112/D3/T87] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-14 20:44:43,836 [P5112/D3/T87] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-14 20:44:43,836 [P5112/D3/T87] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-14 20:44:43,836 [P5112/D3/T87] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-01-14 20:44:43,836 [P5112/D3/T91] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-14 20:44:43,836 [P5112/D3/T87] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-01-14 20:44:43,836 [P5112/D3/T87] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-14 20:44:43,836 [P5112/D3/T87] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-14 20:44:43,851 [P5112/D3/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-14 20:44:43,851 [P5112/D3/T84] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-14 20:44:43,914 [P5112/D3/T87] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-14 20:44:43,914 [P5112/D3/T87] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-14 20:44:43,914 [P5112/D3/T87] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-14 20:44:43,914 [P5112/D3/T87] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-14 20:44:43,914 [P5112/D3/T87] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-14 20:44:43,914 [P5112/D3/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-14 20:44:56,682 [P5112/D4/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on SEBA-HP
+ 2017-01-14 20:44:56,710 [P5112/D4/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-14 20:44:56,726 [P5112/D4/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 16ms)
+ 2017-01-14 20:44:56,774 [P5112/D4/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-14 20:44:56,776 [P5112/D4/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-14 20:44:56,782 [P5112/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-14 20:44:57,317 [P5112/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 534ms)
+ 2017-01-14 20:44:57,330 [P5112/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-14 20:44:57,337 [P5112/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+ 2017-01-14 20:44:57,339 [P5112/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-14 20:44:57,345 [P5112/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 6ms)
+ 2017-01-14 20:44:57,357 [P5112/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-14 20:44:57,362 [P5112/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+ 2017-01-14 20:44:57,363 [P5112/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-14 20:44:57,374 [P5112/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 11ms)
+ 2017-01-14 20:44:57,407 [P5112/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-14 20:44:57,453 [P5112/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 46ms)
+ 2017-01-14 20:44:57,454 [P5112/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-14 20:44:57,459 [P5112/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 5ms)
+ 2017-01-14 20:44:58,769 [P5112/D4/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:44:59,048 [P5112/D4/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:44:59,055 [P5112/D4/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-14 20:44:59,070 [P5112/D4/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:44:59,088 [P5112/D4/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-14 20:44:59,101 [P5112/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-14 20:44:59,109 [P5112/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 7ms)
+ 2017-01-14 20:44:59,296 [P5112/D4/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-14 20:44:59,339 [P5112/D4/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2739ms)
+ 2017-01-14 20:44:59,525 [P5112/D4/T86] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:51959/umbraco (UmbracoModule request)
+ 2017-01-14 20:44:59,745 [P5112/D4/T86] INFO  umbraco.content - Load Xml from file...
+ 2017-01-14 20:44:59,748 [P5112/D4/T86] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-14 20:45:00,335 [P5112/D4/T86] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-14 20:45:00,349 [P5112/D4/T86] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 14ms)
+ 2017-01-14 20:45:09,783 [P5112/D4/T78] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 20:45:13,996 [P5112/D3/T84] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Users\Seba\AppData\Local\Temp\Temporary ASP.NET Files\vs\b6336f30\1fb1d438\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-14 20:45:59,841 [P5112/D4/T83] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-13 20:45:59
+ 2017-01-14 20:49:53,905 [P5112/D4/T104] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-01-14 20:49:53,905 [P5112/D4/T104] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-01-14 20:49:53,905 [P5112/D4/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-14 20:49:53,905 [P5112/D4/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-14 20:49:53,905 [P5112/D4/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-14 20:49:53,905 [P5112/D4/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-14 20:49:53,905 [P5112/D4/T110] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-14 20:49:53,920 [P5112/D4/T102] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-14 20:49:53,983 [P5112/D4/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-14 20:49:53,983 [P5112/D4/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-14 20:49:53,983 [P5112/D4/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-14 20:49:53,983 [P5112/D4/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-14 20:49:53,983 [P5112/D4/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-14 20:49:53,983 [P5112/D4/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-14 20:49:53,983 [P5112/D4/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-14 20:49:53,983 [P5112/D4/T79] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-14 20:49:53,983 [P5112/D4/T102] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-14 20:50:04,946 [P5112/D5/T77] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on SEBA-HP
+ 2017-01-14 20:50:04,978 [P5112/D5/T77] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-14 20:50:04,997 [P5112/D5/T77] INFO  Umbraco.Core.PluginManager - Hash determined (took 19ms)
+ 2017-01-14 20:50:05,067 [P5112/D5/T77] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-14 20:50:05,069 [P5112/D5/T77] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-14 20:50:05,078 [P5112/D5/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-14 20:50:05,455 [P5112/D5/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 377ms)
+ 2017-01-14 20:50:05,471 [P5112/D5/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-14 20:50:05,479 [P5112/D5/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+ 2017-01-14 20:50:05,480 [P5112/D5/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-14 20:50:05,488 [P5112/D5/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 8ms)
+ 2017-01-14 20:50:05,501 [P5112/D5/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-14 20:50:05,506 [P5112/D5/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+ 2017-01-14 20:50:05,507 [P5112/D5/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-14 20:50:05,517 [P5112/D5/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 9ms)
+ 2017-01-14 20:50:05,558 [P5112/D5/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-14 20:50:05,564 [P5112/D5/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 5ms)
+ 2017-01-14 20:50:05,565 [P5112/D5/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-14 20:50:05,572 [P5112/D5/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 6ms)
+ 2017-01-14 20:50:06,796 [P5112/D5/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:50:07,107 [P5112/D5/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:50:07,115 [P5112/D5/T77] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-14 20:50:07,134 [P5112/D5/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-14 20:50:07,144 [P5112/D5/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 10ms)
+ 2017-01-14 20:50:07,289 [P5112/D5/T77] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-14 20:50:07,365 [P5112/D5/T77] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-14 20:50:07,374 [P5112/D5/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:50:07,411 [P5112/D5/T77] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2540ms)
+ 2017-01-14 20:50:07,600 [P5112/D5/T82] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:51959/umbraco (UmbracoModule request)
+ 2017-01-14 20:50:07,826 [P5112/D5/T82] INFO  umbraco.content - Load Xml from file...
+ 2017-01-14 20:50:07,828 [P5112/D5/T82] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-14 20:50:08,422 [P5112/D5/T82] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-14 20:50:08,439 [P5112/D5/T82] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 17ms)
+ 2017-01-14 20:50:13,237 [P5112/D5/T82] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Xml.XPath.XPathException: Expression must evaluate to a node-set.
+   at MS.Internal.Xml.XPath.XPathParser.ParseNodeTest(AstNode qyInput, AxisType axisType, XPathNodeType nodeType)
+   at MS.Internal.Xml.XPath.XPathParser.ParseStep(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseRelativeLocationPath(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseLocationPath(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParsePathExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseUnionExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseUnaryExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseMultiplicativeExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseAdditiveExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseRelationalExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseEqualityExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseAndExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseOrExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseExpresion(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseXPathExpresion(String xpathExpresion)
+   at System.Xml.XPath.XPathExpression.Compile(String xpath, IXmlNamespaceResolver nsResolver)
+   at System.Xml.XPath.XPathNavigator.Select(String xpath)
+   at HtmlAgilityPack.HtmlNode.SelectNodes(String xpath)
+   at bkcervar.Controllers.CurrentStanding.Parse() in C:\Users\Seba\Documents\Visual Studio 2015\Projects\bkcervar\bkcervarpravi\bkcervar\Controllers\CurrentStanding.cs:line 34
+   at ASP._Page_Views_Home_cshtml.Execute() in c:\Users\Seba\Documents\Visual Studio 2015\Projects\bkcervar\bkcervarpravi\bkcervar\Views\Home.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-01-14 20:50:24,015 [P5112/D4/T104] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change in C:\Users\Seba\AppData\Local\Temp\Temporary ASP.NET Files\vs\b6336f30\1fb1d438\hash\hash.web
+Change in C:\Users\Seba\AppData\Local\Temp\Temporary ASP.NET Files\vs\b6336f30\1fb1d438\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-14 20:51:07,960 [P5112/D5/T102] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-13 20:51:07
+ 2017-01-14 20:51:52,929 [P5112/D5/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-14 20:51:52,929 [P5112/D5/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-14 20:51:52,929 [P5112/D5/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-14 20:51:53,038 [P5112/D5/T7] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-01-14 20:51:53,038 [P5112/D5/T7] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-01-14 20:51:53,038 [P5112/D5/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-14 20:51:53,038 [P5112/D5/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-14 20:51:53,038 [P5112/D5/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-14 20:51:53,038 [P5112/D5/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-14 20:51:53,038 [P5112/D5/T78] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-14 20:51:53,038 [P5112/D5/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-14 20:51:53,038 [P5112/D5/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-14 20:51:53,038 [P5112/D5/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-14 20:51:53,038 [P5112/D5/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-14 20:51:53,038 [P5112/D5/T80] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-14 20:51:53,038 [P5112/D5/T102] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-14 20:51:53,038 [P5112/D5/T102] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-14 20:52:03,530 [P5112/D6/T77] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on SEBA-HP
+ 2017-01-14 20:52:03,565 [P5112/D6/T77] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-14 20:52:03,583 [P5112/D6/T77] INFO  Umbraco.Core.PluginManager - Hash determined (took 18ms)
+ 2017-01-14 20:52:03,642 [P5112/D6/T77] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-14 20:52:03,644 [P5112/D6/T77] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-14 20:52:03,653 [P5112/D6/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-14 20:52:04,114 [P5112/D6/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 461ms)
+ 2017-01-14 20:52:04,135 [P5112/D6/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-14 20:52:04,143 [P5112/D6/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+ 2017-01-14 20:52:04,144 [P5112/D6/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-14 20:52:04,153 [P5112/D6/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 8ms)
+ 2017-01-14 20:52:04,167 [P5112/D6/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-14 20:52:04,175 [P5112/D6/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 8ms)
+ 2017-01-14 20:52:04,176 [P5112/D6/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-14 20:52:04,189 [P5112/D6/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 12ms)
+ 2017-01-14 20:52:04,226 [P5112/D6/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-14 20:52:04,232 [P5112/D6/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 6ms)
+ 2017-01-14 20:52:04,234 [P5112/D6/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-14 20:52:04,240 [P5112/D6/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 6ms)
+ 2017-01-14 20:52:05,479 [P5112/D6/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:52:05,781 [P5112/D6/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:52:05,789 [P5112/D6/T77] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-14 20:52:05,810 [P5112/D6/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-14 20:52:05,818 [P5112/D6/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 8ms)
+ 2017-01-14 20:52:05,957 [P5112/D6/T77] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-14 20:52:06,017 [P5112/D6/T77] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-14 20:52:06,023 [P5112/D6/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:52:06,047 [P5112/D6/T77] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2613ms)
+ 2017-01-14 20:52:06,205 [P5112/D6/T24] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:51959/umbraco (UmbracoModule request)
+ 2017-01-14 20:52:06,495 [P5112/D6/T24] INFO  umbraco.content - Load Xml from file...
+ 2017-01-14 20:52:06,498 [P5112/D6/T24] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-14 20:52:07,078 [P5112/D6/T24] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-14 20:52:07,094 [P5112/D6/T24] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 16ms)
+ 2017-01-14 20:52:15,984 [P5112/D6/T100] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 20:52:23,128 [P5112/D5/T87] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change in C:\Users\Seba\AppData\Local\Temp\Temporary ASP.NET Files\vs\b6336f30\1fb1d438\hash\hash.web
+Change in C:\Users\Seba\AppData\Local\Temp\Temporary ASP.NET Files\vs\b6336f30\1fb1d438\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-14 20:53:06,567 [P5112/D6/T80] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-13 20:53:06
+ 2017-01-14 20:53:19,451 [P5112/D6/T110] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-14 20:53:19,451 [P5112/D6/T110] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-14 20:53:19,451 [P5112/D6/T90] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-14 20:53:19,529 [P5112/D6/T110] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-01-14 20:53:19,529 [P5112/D6/T110] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-01-14 20:53:19,529 [P5112/D6/T110] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-14 20:53:19,529 [P5112/D6/T110] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-14 20:53:19,529 [P5112/D6/T110] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-14 20:53:19,529 [P5112/D6/T110] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-14 20:53:19,529 [P5112/D6/T110] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-14 20:53:19,529 [P5112/D6/T110] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-14 20:53:19,529 [P5112/D6/T78] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-14 20:53:19,529 [P5112/D6/T110] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-14 20:53:19,529 [P5112/D6/T110] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-14 20:53:19,529 [P5112/D6/T56] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-14 20:53:19,529 [P5112/D6/T83] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-14 20:53:19,529 [P5112/D6/T80] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-14 20:53:30,289 [P5112/D7/T77] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on SEBA-HP
+ 2017-01-14 20:53:30,315 [P5112/D7/T77] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-14 20:53:30,331 [P5112/D7/T77] INFO  Umbraco.Core.PluginManager - Hash determined (took 16ms)
+ 2017-01-14 20:53:30,387 [P5112/D7/T77] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-14 20:53:30,389 [P5112/D7/T77] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-14 20:53:30,395 [P5112/D7/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-14 20:53:30,783 [P5112/D7/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 388ms)
+ 2017-01-14 20:53:30,803 [P5112/D7/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-14 20:53:30,811 [P5112/D7/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+ 2017-01-14 20:53:30,813 [P5112/D7/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-14 20:53:30,822 [P5112/D7/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 8ms)
+ 2017-01-14 20:53:30,834 [P5112/D7/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-14 20:53:30,841 [P5112/D7/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+ 2017-01-14 20:53:30,842 [P5112/D7/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-14 20:53:30,851 [P5112/D7/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 9ms)
+ 2017-01-14 20:53:30,884 [P5112/D7/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-14 20:53:30,889 [P5112/D7/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 4ms)
+ 2017-01-14 20:53:30,890 [P5112/D7/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-14 20:53:30,895 [P5112/D7/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 5ms)
+ 2017-01-14 20:53:32,153 [P5112/D7/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:53:32,493 [P5112/D7/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:53:32,501 [P5112/D7/T77] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-14 20:53:32,517 [P5112/D7/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:53:32,540 [P5112/D7/T77] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-14 20:53:32,558 [P5112/D7/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-14 20:53:32,571 [P5112/D7/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 12ms)
+ 2017-01-14 20:53:32,741 [P5112/D7/T77] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-14 20:53:32,770 [P5112/D7/T77] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2557ms)
+ 2017-01-14 20:53:32,925 [P5112/D7/T100] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:51959/umbraco (UmbracoModule request)
+ 2017-01-14 20:53:33,160 [P5112/D7/T100] INFO  umbraco.content - Load Xml from file...
+ 2017-01-14 20:53:33,162 [P5112/D7/T100] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-14 20:53:33,763 [P5112/D7/T100] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-14 20:53:33,786 [P5112/D7/T100] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 22ms)
+ 2017-01-14 20:53:43,507 [P5112/D7/T82] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 20:53:49,556 [P5112/D6/T102] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change in C:\Users\Seba\AppData\Local\Temp\Temporary ASP.NET Files\vs\b6336f30\1fb1d438\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-14 20:54:13,270 [P5112/D7/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-14 20:54:13,270 [P5112/D7/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-14 20:54:13,270 [P5112/D7/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-14 20:54:13,270 [P5112/D7/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-14 20:54:13,270 [P5112/D7/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-14 20:54:13,270 [P5112/D7/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-14 20:54:13,270 [P5112/D7/T56] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-14 20:54:13,270 [P5112/D7/T79] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-14 20:54:13,270 [P5112/D7/T80] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-14 20:54:13,270 [P5112/D7/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-14 20:54:13,270 [P5112/D7/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-14 20:54:13,285 [P5112/D7/T104] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-01-14 20:54:13,285 [P5112/D7/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-14 20:54:13,285 [P5112/D7/T104] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-01-14 20:54:13,348 [P5112/D7/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-14 20:54:13,348 [P5112/D7/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-14 20:54:13,348 [P5112/D7/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-14 20:54:25,374 [P5112/D8/T77] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on SEBA-HP
+ 2017-01-14 20:54:25,400 [P5112/D8/T77] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-14 20:54:25,415 [P5112/D8/T77] INFO  Umbraco.Core.PluginManager - Hash determined (took 15ms)
+ 2017-01-14 20:54:25,472 [P5112/D8/T77] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-14 20:54:25,475 [P5112/D8/T77] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-14 20:54:25,484 [P5112/D8/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-14 20:54:25,974 [P5112/D8/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 490ms)
+ 2017-01-14 20:54:25,999 [P5112/D8/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-14 20:54:26,007 [P5112/D8/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+ 2017-01-14 20:54:26,008 [P5112/D8/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-14 20:54:26,017 [P5112/D8/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 9ms)
+ 2017-01-14 20:54:26,036 [P5112/D8/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-14 20:54:26,046 [P5112/D8/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 9ms)
+ 2017-01-14 20:54:26,048 [P5112/D8/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-14 20:54:26,065 [P5112/D8/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 17ms)
+ 2017-01-14 20:54:26,119 [P5112/D8/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-14 20:54:26,129 [P5112/D8/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 9ms)
+ 2017-01-14 20:54:26,130 [P5112/D8/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-14 20:54:26,138 [P5112/D8/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 8ms)
+ 2017-01-14 20:54:27,845 [P5112/D8/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:54:28,246 [P5112/D8/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:54:28,259 [P5112/D8/T77] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-14 20:54:28,280 [P5112/D8/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-14 20:54:28,291 [P5112/D8/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 10ms)
+ 2017-01-14 20:54:28,500 [P5112/D8/T77] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-14 20:54:28,622 [P5112/D8/T77] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-14 20:54:28,677 [P5112/D8/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:54:28,820 [P5112/D8/T77] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3520ms)
+ 2017-01-14 20:54:29,019 [P5112/D8/T87] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:51959/umbraco (UmbracoModule request)
+ 2017-01-14 20:54:29,271 [P5112/D8/T87] INFO  umbraco.content - Load Xml from file...
+ 2017-01-14 20:54:29,273 [P5112/D8/T87] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-14 20:54:30,145 [P5112/D8/T87] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-14 20:54:30,165 [P5112/D8/T87] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 19ms)
+ 2017-01-14 20:54:41,019 [P5112/D8/T90] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 20:54:43,424 [P5112/D7/T90] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change in C:\Users\Seba\AppData\Local\Temp\Temporary ASP.NET Files\vs\b6336f30\1fb1d438\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-14 20:55:29,395 [P5112/D8/T80] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-13 20:55:29
+ 2017-01-14 20:57:17,686 [P5112/D8/T7] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-01-14 20:57:17,686 [P5112/D8/T7] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-01-14 20:57:17,686 [P5112/D8/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-14 20:57:17,686 [P5112/D8/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-14 20:57:17,686 [P5112/D8/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-14 20:57:17,686 [P5112/D8/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-14 20:57:17,686 [P5112/D8/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-14 20:57:17,686 [P5112/D8/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-14 20:57:17,686 [P5112/D8/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-14 20:57:17,686 [P5112/D8/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-14 20:57:17,686 [P5112/D8/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-14 20:57:17,686 [P5112/D8/T110] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-14 20:57:17,686 [P5112/D8/T87] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-14 20:57:17,686 [P5112/D8/T83] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-14 20:57:17,764 [P5112/D8/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-14 20:57:17,764 [P5112/D8/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-14 20:57:17,764 [P5112/D8/T109] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-14 20:57:28,411 [P5112/D9/T77] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on SEBA-HP
+ 2017-01-14 20:57:28,435 [P5112/D9/T77] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-14 20:57:28,448 [P5112/D9/T77] INFO  Umbraco.Core.PluginManager - Hash determined (took 13ms)
+ 2017-01-14 20:57:28,521 [P5112/D9/T77] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-14 20:57:28,523 [P5112/D9/T77] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-14 20:57:28,533 [P5112/D9/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-14 20:57:28,930 [P5112/D9/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 397ms)
+ 2017-01-14 20:57:28,945 [P5112/D9/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-14 20:57:28,952 [P5112/D9/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+ 2017-01-14 20:57:28,953 [P5112/D9/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-14 20:57:28,962 [P5112/D9/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 8ms)
+ 2017-01-14 20:57:28,979 [P5112/D9/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-14 20:57:28,987 [P5112/D9/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+ 2017-01-14 20:57:28,987 [P5112/D9/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-14 20:57:28,997 [P5112/D9/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 9ms)
+ 2017-01-14 20:57:29,031 [P5112/D9/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-14 20:57:29,036 [P5112/D9/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 4ms)
+ 2017-01-14 20:57:29,037 [P5112/D9/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-14 20:57:29,043 [P5112/D9/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 6ms)
+ 2017-01-14 20:57:30,440 [P5112/D9/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:57:30,747 [P5112/D9/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:57:30,759 [P5112/D9/T77] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-14 20:57:30,785 [P5112/D9/T77] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-14 20:57:30,803 [P5112/D9/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-14 20:57:30,811 [P5112/D9/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 7ms)
+ 2017-01-14 20:57:31,020 [P5112/D9/T77] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-14 20:57:31,043 [P5112/D9/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:57:31,079 [P5112/D9/T77] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2754ms)
+ 2017-01-14 20:57:31,281 [P5112/D9/T100] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:51959/umbraco (UmbracoModule request)
+ 2017-01-14 20:57:31,507 [P5112/D9/T100] INFO  umbraco.content - Load Xml from file...
+ 2017-01-14 20:57:31,508 [P5112/D9/T100] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-14 20:57:32,110 [P5112/D9/T100] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-14 20:57:32,125 [P5112/D9/T100] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 14ms)
+ 2017-01-14 20:57:36,568 [P5112/D9/T100] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at bkcervar.Controllers.CurrentStanding.Parse() in C:\Users\Seba\Documents\Visual Studio 2015\Projects\bkcervar\bkcervarpravi\bkcervar\Controllers\CurrentStanding.cs:line 32
+   at ASP._Page_Views_Home_cshtml.Execute() in c:\Users\Seba\Documents\Visual Studio 2015\Projects\bkcervar\bkcervarpravi\bkcervar\Views\Home.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-01-14 20:57:47,843 [P5112/D8/T24] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change in C:\Users\Seba\AppData\Local\Temp\Temporary ASP.NET Files\vs\b6336f30\1fb1d438\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-14 20:58:26,673 [P5112/D9/T80] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at bkcervar.Controllers.CurrentStanding.Parse() in C:\Users\Seba\Documents\Visual Studio 2015\Projects\bkcervar\bkcervarpravi\bkcervar\Controllers\CurrentStanding.cs:line 32
+   at ASP._Page_Views_Home_cshtml.Execute() in c:\Users\Seba\Documents\Visual Studio 2015\Projects\bkcervar\bkcervarpravi\bkcervar\Views\Home.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-01-14 20:58:31,592 [P5112/D9/T82] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-13 20:58:31
+ 2017-01-14 20:58:42,335 [P5112/D9/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-14 20:58:42,335 [P5112/D9/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-14 20:58:42,335 [P5112/D9/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-14 20:58:42,413 [P5112/D9/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-14 20:58:42,413 [P5112/D9/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-14 20:58:42,413 [P5112/D9/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-14 20:58:42,413 [P5112/D9/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-14 20:58:42,413 [P5112/D9/T85] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-14 20:58:42,413 [P5112/D9/T100] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-01-14 20:58:42,413 [P5112/D9/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-14 20:58:42,413 [P5112/D9/T100] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-01-14 20:58:42,413 [P5112/D9/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-14 20:58:42,413 [P5112/D9/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-14 20:58:42,413 [P5112/D9/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-14 20:58:42,413 [P5112/D9/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-14 20:58:42,413 [P5112/D9/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-14 20:58:42,413 [P5112/D9/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-14 20:58:53,016 [P5112/D10/T77] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on SEBA-HP
+ 2017-01-14 20:58:53,046 [P5112/D10/T77] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-14 20:58:53,065 [P5112/D10/T77] INFO  Umbraco.Core.PluginManager - Hash determined (took 18ms)
+ 2017-01-14 20:58:53,144 [P5112/D10/T77] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-14 20:58:53,147 [P5112/D10/T77] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-14 20:58:53,156 [P5112/D10/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-14 20:58:53,640 [P5112/D10/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 484ms)
+ 2017-01-14 20:58:53,664 [P5112/D10/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-14 20:58:53,672 [P5112/D10/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+ 2017-01-14 20:58:53,673 [P5112/D10/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-14 20:58:53,680 [P5112/D10/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 7ms)
+ 2017-01-14 20:58:53,696 [P5112/D10/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-14 20:58:53,702 [P5112/D10/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+ 2017-01-14 20:58:53,703 [P5112/D10/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-14 20:58:53,715 [P5112/D10/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 11ms)
+ 2017-01-14 20:58:53,763 [P5112/D10/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-14 20:58:53,771 [P5112/D10/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 7ms)
+ 2017-01-14 20:58:53,773 [P5112/D10/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-14 20:58:53,782 [P5112/D10/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 9ms)
+ 2017-01-14 20:58:55,312 [P5112/D10/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:58:55,609 [P5112/D10/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:58:55,620 [P5112/D10/T77] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-14 20:58:55,648 [P5112/D10/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-14 20:58:55,658 [P5112/D10/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 9ms)
+ 2017-01-14 20:58:55,888 [P5112/D10/T77] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-14 20:58:55,890 [P5112/D10/T77] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-14 20:58:55,902 [P5112/D10/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 20:58:55,961 [P5112/D10/T77] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3040ms)
+ 2017-01-14 20:58:56,166 [P5112/D10/T105] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:51959/umbraco (UmbracoModule request)
+ 2017-01-14 20:58:56,394 [P5112/D10/T105] INFO  umbraco.content - Load Xml from file...
+ 2017-01-14 20:58:56,396 [P5112/D10/T105] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-14 20:58:57,056 [P5112/D10/T105] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-14 20:58:57,075 [P5112/D10/T105] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 19ms)
+ 2017-01-14 20:59:02,479 [P5112/D10/T105] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at bkcervar.Controllers.CurrentStanding.Parse() in C:\Users\Seba\Documents\Visual Studio 2015\Projects\bkcervar\bkcervarpravi\bkcervar\Controllers\CurrentStanding.cs:line 32
+   at ASP._Page_Views_Home_cshtml.Execute() in c:\Users\Seba\Documents\Visual Studio 2015\Projects\bkcervar\bkcervarpravi\bkcervar\Views\Home.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-01-14 20:59:12,484 [P5112/D9/T107] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change in C:\Users\Seba\AppData\Local\Temp\Temporary ASP.NET Files\vs\b6336f30\1fb1d438\hash\hash.web
+Change in C:\Users\Seba\AppData\Local\Temp\Temporary ASP.NET Files\vs\b6336f30\1fb1d438\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-14 20:59:56,523 [P5112/D10/T83] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-13 20:59:56
+ 2017-01-14 21:01:53,197 [P5112/D10/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-14 21:01:53,197 [P5112/D10/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-14 21:01:53,197 [P5112/D10/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-14 21:01:53,197 [P5112/D10/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-14 21:01:53,197 [P5112/D10/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-14 21:01:53,197 [P5112/D10/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-14 21:01:53,197 [P5112/D10/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-14 21:01:53,197 [P5112/D10/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-14 21:01:53,197 [P5112/D10/T100] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-01-14 21:01:53,197 [P5112/D10/T83] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-14 21:01:53,197 [P5112/D10/T80] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-14 21:01:53,197 [P5112/D10/T103] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-14 21:01:53,197 [P5112/D10/T100] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-01-14 21:01:53,213 [P5112/D10/T90] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-14 21:01:53,291 [P5112/D10/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-14 21:01:53,291 [P5112/D10/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-14 21:01:53,291 [P5112/D10/T24] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-14 21:02:03,852 [P5112/D11/T77] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on SEBA-HP
+ 2017-01-14 21:02:03,874 [P5112/D11/T77] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-14 21:02:03,886 [P5112/D11/T77] INFO  Umbraco.Core.PluginManager - Hash determined (took 12ms)
+ 2017-01-14 21:02:03,949 [P5112/D11/T77] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-14 21:02:03,950 [P5112/D11/T77] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-14 21:02:03,961 [P5112/D11/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-14 21:02:04,326 [P5112/D11/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 364ms)
+ 2017-01-14 21:02:04,342 [P5112/D11/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-14 21:02:04,347 [P5112/D11/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+ 2017-01-14 21:02:04,348 [P5112/D11/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-14 21:02:04,355 [P5112/D11/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 6ms)
+ 2017-01-14 21:02:04,368 [P5112/D11/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-14 21:02:04,375 [P5112/D11/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+ 2017-01-14 21:02:04,375 [P5112/D11/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-14 21:02:04,385 [P5112/D11/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 9ms)
+ 2017-01-14 21:02:04,418 [P5112/D11/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-14 21:02:04,423 [P5112/D11/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 5ms)
+ 2017-01-14 21:02:04,424 [P5112/D11/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-14 21:02:04,432 [P5112/D11/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 8ms)
+ 2017-01-14 21:02:05,708 [P5112/D11/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 21:02:06,013 [P5112/D11/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 21:02:06,022 [P5112/D11/T77] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-14 21:02:06,044 [P5112/D11/T77] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-14 21:02:06,056 [P5112/D11/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-14 21:02:06,066 [P5112/D11/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 9ms)
+ 2017-01-14 21:02:06,259 [P5112/D11/T77] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-14 21:02:06,275 [P5112/D11/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 21:02:06,305 [P5112/D11/T77] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2529ms)
+ 2017-01-14 21:02:06,468 [P5112/D11/T93] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:51959/umbraco (UmbracoModule request)
+ 2017-01-14 21:02:06,745 [P5112/D11/T93] INFO  umbraco.content - Load Xml from file...
+ 2017-01-14 21:02:06,747 [P5112/D11/T93] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-14 21:02:07,296 [P5112/D11/T93] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-14 21:02:07,319 [P5112/D11/T93] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 23ms)
+ 2017-01-14 21:02:12,166 [P5112/D11/T93] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at bkcervar.Controllers.CurrentStanding.Parse() in C:\Users\Seba\Documents\Visual Studio 2015\Projects\bkcervar\bkcervarpravi\bkcervar\Controllers\CurrentStanding.cs:line 34
+   at ASP._Page_Views_Home_cshtml.Execute() in c:\Users\Seba\Documents\Visual Studio 2015\Projects\bkcervar\bkcervarpravi\bkcervar\Views\Home.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-01-14 21:02:23,312 [P5112/D10/T90] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Users\Seba\AppData\Local\Temp\Temporary ASP.NET Files\vs\b6336f30\1fb1d438\hash\hash.web
+Change in C:\Users\Seba\AppData\Local\Temp\Temporary ASP.NET Files\vs\b6336f30\1fb1d438\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-14 21:03:06,871 [P5112/D11/T80] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-13 21:03:06
+ 2017-01-14 21:05:07,675 [P5112/D11/T88] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-01-14 21:05:07,675 [P5112/D11/T88] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-01-14 21:05:07,675 [P5112/D11/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-14 21:05:07,675 [P5112/D11/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-14 21:05:07,675 [P5112/D11/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-14 21:05:07,675 [P5112/D11/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-14 21:05:07,675 [P5112/D11/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-14 21:05:07,675 [P5112/D11/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-14 21:05:07,675 [P5112/D11/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-14 21:05:07,675 [P5112/D11/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-14 21:05:07,675 [P5112/D11/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-14 21:05:07,675 [P5112/D11/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-14 21:05:07,690 [P5112/D11/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-14 21:05:07,690 [P5112/D11/T97] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-14 21:05:07,690 [P5112/D11/T80] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-14 21:05:07,690 [P5112/D11/T85] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-14 21:05:07,690 [P5112/D11/T115] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-14 21:05:17,279 [P5112/D12/T77] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on SEBA-HP
+ 2017-01-14 21:05:17,310 [P5112/D12/T77] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-14 21:05:17,326 [P5112/D12/T77] INFO  Umbraco.Core.PluginManager - Hash determined (took 17ms)
+ 2017-01-14 21:05:17,383 [P5112/D12/T77] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-14 21:05:17,385 [P5112/D12/T77] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-14 21:05:17,391 [P5112/D12/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-14 21:05:17,809 [P5112/D12/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 417ms)
+ 2017-01-14 21:05:17,832 [P5112/D12/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-14 21:05:17,838 [P5112/D12/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+ 2017-01-14 21:05:17,839 [P5112/D12/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-14 21:05:17,847 [P5112/D12/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 8ms)
+ 2017-01-14 21:05:17,862 [P5112/D12/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-14 21:05:17,868 [P5112/D12/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+ 2017-01-14 21:05:17,869 [P5112/D12/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-14 21:05:17,877 [P5112/D12/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 8ms)
+ 2017-01-14 21:05:17,910 [P5112/D12/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-14 21:05:17,915 [P5112/D12/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 4ms)
+ 2017-01-14 21:05:17,916 [P5112/D12/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-14 21:05:17,922 [P5112/D12/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 5ms)
+ 2017-01-14 21:05:19,356 [P5112/D12/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 21:05:19,669 [P5112/D12/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 21:05:19,679 [P5112/D12/T77] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-14 21:05:19,705 [P5112/D12/T77] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-14 21:05:19,722 [P5112/D12/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-14 21:05:19,733 [P5112/D12/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 10ms)
+ 2017-01-14 21:05:19,971 [P5112/D12/T77] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-14 21:05:19,997 [P5112/D12/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 21:05:20,023 [P5112/D12/T77] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2836ms)
+ 2017-01-14 21:05:20,184 [P5112/D12/T107] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:51959/umbraco (UmbracoModule request)
+ 2017-01-14 21:05:20,382 [P5112/D12/T107] INFO  umbraco.content - Load Xml from file...
+ 2017-01-14 21:05:20,385 [P5112/D12/T107] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-14 21:05:20,897 [P5112/D12/T107] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-14 21:05:20,912 [P5112/D12/T107] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 14ms)
+ 2017-01-14 21:05:30,357 [P5112/D12/T13] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 21:05:37,864 [P5112/D11/T104] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Users\Seba\AppData\Local\Temp\Temporary ASP.NET Files\vs\b6336f30\1fb1d438\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-14 21:06:20,530 [P5112/D12/T79] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-13 21:06:20
+ 2017-01-14 21:06:29,014 [P5112/D12/T104] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 21:06:54,520 [P5112/D12/T104] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 21:07:39,809 [P5112/D12/T24] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 21:18:45,486 [P5112/D12/T55] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username seba7964@hotmail.com from IP address ::1
+ 2017-01-14 21:18:45,486 [P5112/D12/T55] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: seba7964@hotmail.com logged in from IP address ::1
+ 2017-01-14 21:18:45,903 [P5112/D12/T90] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-01-14 21:18:45,926 [P5112/D12/T90] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 22ms)
+ 2017-01-14 21:19:14,002 [P5112/D12/T76] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-01-14 21:19:14,015 [P5112/D12/T76] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 13ms)
+ 2017-01-14 21:19:14,022 [P5112/D12/T76] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-01-14 21:19:14,042 [P5112/D12/T76] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 19ms)
+ 2017-01-14 21:19:14,748 [P5112/D12/T60] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2017-01-14 21:19:14,748 [P5112/D12/T60] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2017-01-14 21:19:14,748 [P5112/D12/T60] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2017-01-14 21:19:14,770 [P5112/D12/T59] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2017-01-14 21:19:14,770 [P5112/D12/T59] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2017-01-14 21:19:14,770 [P5112/D12/T59] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2017-01-14 21:19:14,770 [P5112/D12/T59] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2017-01-14 21:20:23,644 [P5112/D12/T70] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-14 21:20:23,644 [P5112/D12/T70] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-14 21:20:23,645 [P5112/D12/T70] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-14 21:20:23,645 [P5112/D12/T70] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-14 21:20:23,647 [P5112/D12/T70] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-01-14 21:20:23,647 [P5112/D12/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-14 21:20:23,648 [P5112/D12/T70] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-01-14 21:20:23,648 [P5112/D12/T70] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-14 21:20:23,648 [P5112/D12/T70] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-14 21:20:23,648 [P5112/D12/T70] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-14 21:20:23,652 [P5112/D12/T79] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-14 21:20:23,721 [P5112/D12/T70] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-14 21:20:23,721 [P5112/D12/T70] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-14 21:20:23,721 [P5112/D12/T70] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-14 21:20:23,721 [P5112/D12/T70] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-14 21:20:23,721 [P5112/D12/T73] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-14 21:20:23,723 [P5112/D12/T98] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-14 21:20:52,503 [P5112/D13/T15] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on SEBA-HP
+ 2017-01-14 21:20:52,537 [P5112/D13/T15] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-14 21:20:52,557 [P5112/D13/T15] INFO  Umbraco.Core.PluginManager - Hash determined (took 20ms)
+ 2017-01-14 21:20:52,651 [P5112/D13/T15] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-14 21:20:52,653 [P5112/D13/T15] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-14 21:20:52,661 [P5112/D13/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-14 21:20:52,728 [P5112/D13/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 66ms)
+ 2017-01-14 21:20:52,781 [P5112/D13/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-14 21:20:52,782 [P5112/D13/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-01-14 21:20:52,783 [P5112/D13/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-14 21:20:52,785 [P5112/D13/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 2ms)
+ 2017-01-14 21:20:52,799 [P5112/D13/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-14 21:20:52,811 [P5112/D13/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 12ms)
+ 2017-01-14 21:20:52,812 [P5112/D13/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-14 21:20:52,830 [P5112/D13/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 18ms)
+ 2017-01-14 21:20:52,882 [P5112/D13/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-14 21:20:52,883 [P5112/D13/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-01-14 21:20:52,884 [P5112/D13/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-14 21:20:52,885 [P5112/D13/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2017-01-14 21:20:53,771 [P5112/D12/T63] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-14 21:20:54,675 [P5112/D13/T15] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 21:20:55,143 [P5112/D13/T15] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 21:20:55,184 [P5112/D13/T15] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-14 21:20:55,349 [P5112/D13/T15] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-14 21:20:55,485 [P5112/D13/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-14 21:20:55,489 [P5112/D13/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 4ms)
+ 2017-01-14 21:20:55,807 [P5112/D13/T15] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-14 21:20:55,838 [P5112/D13/T15] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 21:20:55,876 [P5112/D13/T15] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3483ms)
+ 2017-01-14 21:20:57,180 [P5112/D13/T98] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:51959/umbraco (UmbracoModule request)
+ 2017-01-14 21:26:29,613 [P5112/D13/T110] INFO  umbraco.content - Load Xml from file...
+ 2017-01-14 21:26:29,615 [P5112/D13/T110] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-14 21:26:30,913 [P5112/D13/T110] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-14 21:26:30,917 [P5112/D13/T110] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 4ms)
+ 2017-01-14 21:26:38,903 [P5112/D13/T58] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 21:27:03,536 [P5112/D13/T73] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 21:27:29,713 [P5112/D13/T79] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-13 21:27:29
+ 2017-01-14 21:27:49,355 [P5112/D13/T65] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 21:29:18,137 [P5112/D13/T58] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 21:29:21,936 [P5112/D13/T49] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 21:38:20,635 [P5112/D13/T10] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: seba7964@hotmail.com, IP Address: ::1
+ 2017-01-14 21:57:35,827 [P5112/D13/T9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-14 21:57:35,827 [P5112/D13/T9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-14 21:57:35,829 [P5112/D13/T9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-14 21:57:35,829 [P5112/D13/T9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-14 21:57:35,832 [P5112/D13/T9] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-01-14 21:57:35,833 [P5112/D13/T98] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-14 21:57:35,833 [P5112/D13/T98] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-14 21:57:35,834 [P5112/D13/T9] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-01-14 21:57:35,834 [P5112/D13/T9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-14 21:57:35,834 [P5112/D13/T9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-14 21:57:35,835 [P5112/D13/T94] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-14 21:57:35,963 [P5112/D13/T9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-14 21:57:35,963 [P5112/D13/T9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-14 21:57:35,963 [P5112/D13/T9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-14 21:57:35,963 [P5112/D13/T9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-14 21:57:35,963 [P5112/D13/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-14 21:57:35,963 [P5112/D13/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-14 21:57:52,272 [P5112/D14/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on SEBA-HP
+ 2017-01-14 21:57:52,328 [P5112/D14/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-14 21:57:52,352 [P5112/D14/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 23ms)
+ 2017-01-14 21:57:52,519 [P5112/D14/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-14 21:57:52,522 [P5112/D14/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-14 21:57:52,545 [P5112/D14/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-14 21:57:52,661 [P5112/D14/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 116ms)
+ 2017-01-14 21:57:52,764 [P5112/D14/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-14 21:57:52,767 [P5112/D14/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+ 2017-01-14 21:57:52,769 [P5112/D14/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-14 21:57:52,774 [P5112/D14/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-01-14 21:57:52,804 [P5112/D14/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-14 21:57:52,833 [P5112/D14/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 29ms)
+ 2017-01-14 21:57:52,834 [P5112/D14/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-14 21:57:52,866 [P5112/D14/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 31ms)
+ 2017-01-14 21:57:52,967 [P5112/D14/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-14 21:57:52,969 [P5112/D14/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 2ms)
+ 2017-01-14 21:57:52,970 [P5112/D14/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-14 21:57:52,971 [P5112/D14/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2017-01-14 21:57:55,039 [P5112/D14/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 21:57:55,716 [P5112/D14/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 21:57:55,768 [P5112/D14/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-14 21:57:55,878 [P5112/D14/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-14 21:57:55,912 [P5112/D14/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-14 21:57:55,918 [P5112/D14/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 6ms)
+ 2017-01-14 21:57:56,353 [P5112/D14/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-14 21:57:56,400 [P5112/D14/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 21:57:56,445 [P5112/D14/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4330ms)
+ 2017-01-14 21:57:58,039 [P5112/D14/T111] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:51959/umbraco (UmbracoModule request)
+ 2017-01-14 21:57:59,019 [P5112/D14/T111] INFO  umbraco.content - Load Xml from file...
+ 2017-01-14 21:57:59,022 [P5112/D14/T111] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-14 21:58:00,016 [P5112/D14/T111] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-14 21:58:00,021 [P5112/D14/T111] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 4ms)
+ 2017-01-14 21:58:06,009 [P5112/D13/T90] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-14 21:58:10,890 [P5112/D14/T90] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 21:58:24,723 [P5112/D14/T109] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 21:58:59,155 [P5112/D14/T60] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-13 21:58:59
+ 2017-01-14 21:59:04,966 [P5112/D14/T55] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 21:59:45,598 [P5112/D14/T98] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 22:01:30,759 [P5112/D14/T59] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 22:04:18,233 [P5112/D14/T59] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 22:04:31,761 [P5112/D14/T9] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 22:04:44,134 [P5112/D14/T79] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 22:05:11,557 [P5112/D14/T73] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 22:05:34,729 [P5112/D14/T9] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 22:05:54,354 [P5112/D14/T59] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 22:10:38,017 [P5112/D14/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-14 22:10:38,017 [P5112/D14/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-14 22:10:38,018 [P5112/D14/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-14 22:10:38,018 [P5112/D14/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-14 22:10:38,018 [P5112/D14/T73] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-14 22:10:38,018 [P5112/D14/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-14 22:10:38,117 [P5112/D14/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-14 22:10:38,117 [P5112/D14/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-14 22:10:38,117 [P5112/D14/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-14 22:10:38,117 [P5112/D14/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-14 22:10:38,117 [P5112/D14/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-14 22:10:38,117 [P5112/D14/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-14 22:10:38,117 [P5112/D14/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-14 22:10:38,118 [P5112/D14/T109] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-14 22:10:38,120 [P5112/D14/T49] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-01-14 22:10:38,121 [P5112/D14/T60] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-14 22:10:38,129 [P5112/D14/T49] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-01-14 22:11:08,214 [P5112/D14/T65] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-14 22:11:13,349 [P5112/D15/T14] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.6 application starting on SEBA-HP
+ 2017-01-14 22:11:13,379 [P5112/D15/T14] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-14 22:11:13,396 [P5112/D15/T14] INFO  Umbraco.Core.PluginManager - Hash determined (took 17ms)
+ 2017-01-14 22:11:13,480 [P5112/D15/T14] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-01-14 22:11:13,482 [P5112/D15/T14] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-01-14 22:11:13,495 [P5112/D15/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-14 22:11:13,583 [P5112/D15/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 88ms)
+ 2017-01-14 22:11:13,658 [P5112/D15/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-14 22:11:13,661 [P5112/D15/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+ 2017-01-14 22:11:13,662 [P5112/D15/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-14 22:11:13,667 [P5112/D15/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 4ms)
+ 2017-01-14 22:11:13,677 [P5112/D15/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-14 22:11:13,697 [P5112/D15/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 19ms)
+ 2017-01-14 22:11:13,699 [P5112/D15/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-14 22:11:13,732 [P5112/D15/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 32ms)
+ 2017-01-14 22:11:13,797 [P5112/D15/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-14 22:11:13,799 [P5112/D15/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-01-14 22:11:13,800 [P5112/D15/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-14 22:11:13,802 [P5112/D15/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2017-01-14 22:11:15,833 [P5112/D15/T14] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 22:11:16,288 [P5112/D15/T14] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 22:11:16,372 [P5112/D15/T14] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-14 22:11:16,442 [P5112/D15/T14] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-14 22:11:16,472 [P5112/D15/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-14 22:11:16,495 [P5112/D15/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 23ms)
+ 2017-01-14 22:11:16,764 [P5112/D15/T14] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-14 22:11:16,929 [P5112/D15/T14] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-14 22:11:17,079 [P5112/D15/T14] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3832ms)
+ 2017-01-14 22:11:18,419 [P5112/D15/T59] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:51959/umbraco (UmbracoModule request)
+ 2017-01-14 22:11:19,380 [P5112/D15/T59] INFO  umbraco.content - Load Xml from file...
+ 2017-01-14 22:11:19,383 [P5112/D15/T59] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-14 22:11:21,092 [P5112/D15/T59] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-14 22:11:21,095 [P5112/D15/T59] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2017-01-14 22:11:40,861 [P5112/D15/T94] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-01-14 22:12:19,463 [P5112/D15/T9] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-13 22:12:19
+ 2017-01-14 22:13:23,113 [P5112/D15/T49] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.

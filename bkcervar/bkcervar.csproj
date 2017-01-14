@@ -3351,6 +3351,7 @@
   <ItemGroup>
     <Compile Include="Areas\images\imagesAreaRegistration.cs" />
     <Compile Include="Controllers\ContactSurfaceController.cs" />
+    <Compile Include="Controllers\CurrentStanding.cs" />
     <Compile Include="Models\ContactModel.cs" />
     <Compile Include="Models\Generated\Database.cs">
       <AutoGen>True</AutoGen>

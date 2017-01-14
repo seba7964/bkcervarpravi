@@ -1,0 +1,32 @@
+#currentStandings{
+	width: 360px;
+	margin: 50px;
+	background: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+#currentStandings table tr th:nth-child(2){
+	text-align: center;
+}
+
+#currentStandings table{
+	text-align: center;
+}
+
+#currentStandings table tr th{
+	padding: 5px;
+	border-bottom: 1px solid gray;
+}
+
+#currentStandings table tr{
+	border-bottom: 1px solid lightgray;
+}
+
+#currentStandings table tr td{
+	padding: 10px 5px;
+	border-right: 1px solid lightgray;
+}
+
+#currentStandings 
