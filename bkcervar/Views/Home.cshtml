@@ -20,7 +20,7 @@ Layout = "Master.cshtml";
         $("#myCarousel").attr("data-pause", "false");
     }
 </script>
-<div id="myCarousel" class="carousel slide" data-interval="300000000"  data-ride="carousel" data-pause="false">
+<div id="myCarousel" class="carousel slide" data-interval="0"  data-ride="carousel" data-pause="false">
     <!-- Indicators -->
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -56,8 +56,9 @@ Layout = "Master.cshtml";
                     
                   
                     <p style="font-size:70px;text-align:center;color:red">ŽELITE LI POSTATI SPONZOR?</p>
-
-                    <div class="card" style="width:20rem; margin-top:30px; margin-left:400px;">
+                    <table id="sponsor-table">
+                        <tr>
+                    <td>
                         <img class="card-img-top" src="http://sierracascadeexpo.com/application/files/8514/4572/6080/Gold_Medal_5-150x150.png" alt="Card image cap">
                         <div class="card-block">
                             <h4 class="card-title">Gold Sponzorstvo</h4>
@@ -66,9 +67,9 @@ Layout = "Master.cshtml";
                             <a href="http://localhost:51959/en/contact-us/" class="btn btn-primary">Kontaktirajte nas</a>
                         </div>
                         
-                    </div>
+                    </td>
 
-                    <div class="card" style="width:20rem;  margin-left:800px; margin-top:-380px;">
+                    <td>
                         <img class="card-img-top" src="https://www.craftspiritsxchange.com/skin/frontend/base/default/images/medals/silver.png" alt="Card image cap">
                         <div class="card-block">
                             <h4 class="card-title">Silver Sponzorstvo</h4>
@@ -76,10 +77,10 @@ Layout = "Master.cshtml";
                             <p class="card-text">-Biti će istaknut samo u onim događajima koje sponzorira, može postaviti mini logo te će biti spomenut u medijima</p>
                             <a href="http://localhost:51959/en/contact-us/" class="btn btn-primary">Kontaktirajte nas</a>
                         </div>
-                    </div>
+                    </td>
 
 
-                    <div class="card" style="width:20rem;  margin-left:1200px; margin-top:-380px;">
+                    <td>
                         <img class="card-img-top" src="https://rozwarner.files.wordpress.com/2011/12/bronze_medal_2.png?w=150&h=150" alt="Card image cap">
                         <div class="card-block">
                             <h4 class="card-title">Bronze Sponzorstvo</h4>
@@ -87,7 +88,9 @@ Layout = "Master.cshtml";
                             <p class="card-text">-Biti će istaknut samo na popisu sponzora te će biti spomenut tijekom održavanja eventa samo učesnicima (lokalno)</p>
                             <a href="http://localhost:51959/en/contact-us/" class="btn btn-primary">Kontaktirajte nas</a>
                         </div>
-                    </div>
+                    </td>
+                        </tr>
+                        </table>
 
 </div>
             </div>
@@ -112,41 +115,64 @@ Layout = "Master.cshtml";
     <div class="container-fluid" style="margin:50px auto;">
         <div class="panel panel-default" style="background-color: rgba(0,0,0,0);border: none;word-break: break-all;">
 
-           
-  <div class="panel-heading">Panel heading without title</div>
+                    <div class="container-fluid">
+                   <div class="panel-header" style="background-color:white">   <h2>NAJAVE I NOVOSTI</h2>
+            
+                    </div>
+                        </div>
+                
+            
 
-            <div class="container-fluid">
 
-                <br>
+
+                <div class="container-fluid">
+                    
+                    <br>
                     @{
-                        var newsNode = Umbraco.TypedContent(1096).Children.Reverse().ToList();
+                        var cul = Model.CurrentCulture;
+                        var langCult = cul + "";
+                        if (langCult.Split('-').Length != 1)
+                        {
+                            langCult = langCult.Split('-')[0];
+                        }
+                        var notElegantno = langCult == "en";
+                        var elegantno = 1096;
+                        if (notElegantno)
+                        {
+                            elegantno = 1062;
+                        }
+                        var newsNode = Umbraco.TypedContent(elegantno).Children.Reverse().ToList();
                         var newsCount = newsNode.Count;
                         var newsCountToShow = 3;
                     }
-                        @foreach(var listItem in @newsNode){
-                            if(newsCountToShow > 0){
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <a href="@listItem.Url">
-                                            <h3 class="panel-title">
-                                                @listItem.GetPropertyValue("pageTitle")
-                                            </h3>
-                                        </a>
-                                    </div>
-                                    <div class="panel-body">
-                                        @Umbraco.Truncate(@listItem.GetPropertyValue("newsText").ToString(), 200)
-                                    </div>
+                    @foreach (var listItem in @newsNode)
+                    {
+                        if (newsCountToShow > 0)
+                        {
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <a href="@listItem.Url">
+                                        <h3 class="panel-title">
+                                            @listItem.GetPropertyValue("pageTitle")
+                                        </h3>
+                                    </a>
                                 </div>
-                                newsCountToShow--;
-                            }else{
-                                break;
-                            }
+                                <div class="panel-body">
+                                    @Umbraco.Truncate(@listItem.GetPropertyValue("newsText").ToString(), 200)
+                                </div>
+                            </div>
+                            newsCountToShow--;
                         }
+                        else
+                        {
+                            break;
+                        }
+                    }
+                </div>
             </div>
-        </div>
     </div>
 </div>
-<div class="container col-md-2">
+<div class="container col-md-2" style="margin-top:105px;">
     <div id="currentStandings">
         @scrapedTable
     </div>

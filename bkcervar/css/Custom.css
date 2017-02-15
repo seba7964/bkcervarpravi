@@ -16,3 +16,239 @@ body {
 header{
 	padding-top: 50px;
 }
+
+.container.col-md-5.col-md-offset-2 div div div div h2 {
+    color: white !important;
+}
+
+.container.col-md-5.col-md-offset-2 div div div div.panel-header{
+    background: rgba(0,0,0,0) !important;
+}
+
+@media screen and (min-width: 768px){
+    #sponsor-table{
+        width: 600px;
+        margin:auto;
+    }
+
+    #isSponsorSlide div p{
+        color:white !important;
+    }
+
+    #sponsor-table > tbody > tr > td:nth-child(n) > div{
+        width:250px;
+    }
+
+    #sponsor-table > tbody > tr > td:nth-child(n) > img{
+        width: 150px;
+    }
+
+    #sponsor-table > tbody > tr > td{
+        text-align:center;
+    }
+
+    #sponsor-table > tbody > tr > td div{
+        text-align:left;
+    }
+
+    #isSponsorSlide{
+        margin-top: 50px;
+    }
+
+    #sponsor-table tbody > tr > td{
+        padding: 0 10px;
+    }
+
+    #banner-image1{
+        position:absolute;
+        left: 5px !important;
+        top: 100px;
+        padding:0;
+        margin:0;
+        height:295px !important;
+        width:295px !important;
+    }
+
+    #banner-image2{
+        position:absolute;
+        right: 5px !important;
+        top: 100px;
+        padding:0;
+        margin:0;
+        height:295px !important;
+        width:295px !important;
+    }
+
+    #banner-image3{
+        padding:0;
+        height:295px !important;
+        width:600px !important;
+    }
+}
+
+@media screen and (max-width: 580px){
+    #banner-image1, #banner-image2, #banner-image3{
+        width:250px !important;
+        height:250px !important;
+        padding-top:20px;
+    }
+
+    #banner-image1{
+        padding-top:0px;
+        margin-top:-20px;
+    }
+
+    #news-panel-panel-default div div.panel.panel-default{
+        width: 255px !important;
+        margin-bottom: -10px !important;
+   }
+
+    #contact-page-container{
+        margin:0;
+        padding:0;
+    }
+
+    #contact-page-container div.panel.panel-default{
+        margin:20px -10px 0px -30px !important;
+        padding: 0;
+    }
+
+    #contact-page-container input{
+        margin-bottom:-20px;
+    }
+
+    #contact-page-container textarea{
+        height:100px;
+    }
+
+    #contact-page-container .btn-primary{
+        width: 100% !important;
+    }
+
+    #sponsor-table{
+        margin:auto;
+    }
+    #bs-example-navbar-collapse-1 {
+        width: 100%;
+    }
+
+    #bs-example-navbar-collapse-1 ul{
+        margin:0;
+        padding:0;
+        width:100%;
+    }
+
+    .container-fluid .button-group.pull-right{
+        position:absolute;
+        top:53px;
+        right:70px;
+    }
+
+    .nav.navbar-brand a p span{
+        margin-top: -16px;
+        margin-right: 2px;
+        text-align: right;
+        line-height:28px;
+    }
+
+    .nav.navbar-brand a p img{
+        padding-top:10px;
+        height: 100px !important;
+        max-height: 100px !important
+    }
+
+    #myCarousel{
+        height:200px;
+    }
+
+    #myCarousel div.carousel-inner{
+        height:250px !important;
+    }
+
+    #myCarousel > div > div.item > img{
+        margin-top:50px;
+        height:200px !important;
+    }
+
+    #myCarousel ol{
+        top: 225px;
+    }
+
+    .container.col-md-5.col-md-offset-2 div div div div h2 {
+        font-size:25px;
+    }
+
+    div#currentStandings{
+        padding:0;
+        margin:-140px 0 15px 0;
+        width:290px;
+    }
+
+    div#currentStandings td, div#currentStandings th{
+        padding:0 !important;
+        margin:0 !important;
+        width: 30px !important;
+    }
+
+    .panel.panel-default{
+        width:290px !important;
+        margin:15px 0 0 -15px !important;
+        padding:0;
+    }
+
+    #isSponsorSlide{
+        height:320px;
+    }
+
+    #isSponsorSlide div{
+        height:250px !important;
+    }
+
+    #isSponsorSlide div p{
+        margin-top:60px;
+        font-size:20px !important;
+    }
+
+    #sponsor-table tbody, #sponsor-table{
+        max-width:100px !important;
+    }
+
+    #isSponsorSlide div p{
+        color:white !important;
+    }
+
+    #sponsor-table > tr{
+        width:50px !important;
+    }
+
+    #sponsor-table > td{
+        width: 40px !important;
+    }
+
+    #sponsor-table > tbody > tr > td:nth-child(n) > img{
+        width:70px !important;
+        text-align:center;
+        vertical-align:middle;
+        margin: 0 auto;
+        height:70px !important;
+    }
+
+    #sponsor-table, #sponsor-table tbody, #sponsor-table tbody > tr{
+        width: 250px !important;
+    }
+
+    #sponsor-table tbody > tr > td{
+        width: 83px;
+        text-align:center;
+    }
+
+    #sponsor-table tbody > tr > td .card-block :nth-child(n):not(a){
+        display: none;
+    }
+
+    #sponsor-table tbody > tr > td .card-block a{
+        width: 90px;
+        white-space:normal;
+        font-size:12px;
+    }
+}

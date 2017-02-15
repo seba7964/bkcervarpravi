@@ -19,8 +19,8 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "a724f0984b6570cf")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.2")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "1ff7fab283895ce1")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 namespace Umbraco.Web.PublishedContentModels
 {
@@ -223,6 +223,15 @@ namespace Umbraco.Web.PublishedContentModels
 		public IHtmlString NewsText
 		{
 			get { return this.GetPropertyValue<IHtmlString>("newsText"); }
+		}
+
+		///<summary>
+		/// Page Image: Odaberite sliku sponzora
+		///</summary>
+		[ImplementPropertyType("pageImage")]
+		public string PageImage
+		{
+			get { return this.GetPropertyValue<string>("pageImage"); }
 		}
 	}
 
