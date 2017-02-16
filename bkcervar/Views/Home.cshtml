@@ -20,7 +20,7 @@ Layout = "Master.cshtml";
         $("#myCarousel").attr("data-pause", "false");
     }
 </script>
-<div id="myCarousel" class="carousel slide" data-interval="0"  data-ride="carousel" data-pause="false">
+<div id="myCarousel" class="carousel slide" data-interval="3000"  data-ride="carousel" data-pause="false">
     <!-- Indicators -->
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -59,12 +59,24 @@ Layout = "Master.cshtml";
                     <table id="sponsor-table">
                         <tr>
                     <td>
+                        
                         <img class="card-img-top" src="http://sierracascadeexpo.com/application/files/8514/4572/6080/Gold_Medal_5-150x150.png" alt="Card image cap">
                         <div class="card-block">
                             <h4 class="card-title">Gold Sponzorstvo</h4>
                             <p class="card-text">-Sponzorstvo Eko Akcije, Ljetna Škola i Memorijalni turnir Lucio Pulin</p>
                             <p class="card-text">-Na sva tri eventa sponzor će biti posebno istaknut, može postaviti svoj transparent i biti će istaknut u medijima</p>
-                            <a href="http://localhost:51959/en/contact-us/" class="btn btn-primary">Kontaktirajte nas</a>
+                            <script type="text/javascript">
+                                function test() {
+
+
+                                if ($(window).width() < 768) {
+                                    document.getElementById("abc").href="http://localhost:51959/hr/sponzori/";
+                                } else {
+                                    document.getElementById("abc").href="http://localhost:51959/hr/contact-us/";
+                                }
+                                }
+                            </script>
+                            <a href="#" id="abc" onclick="test()" class="btn btn-primary">Saznaj Više</a> 
                         </div>
                         
                     </td>
@@ -75,7 +87,18 @@ Layout = "Master.cshtml";
                             <h4 class="card-title">Silver Sponzorstvo</h4>
                             <p class="card-text">-Sponzorstva dva eventa (po želji) te nešto najdivnije na svijetu</p>
                             <p class="card-text">-Biti će istaknut samo u onim događajima koje sponzorira, može postaviti mini logo te će biti spomenut u medijima</p>
-                            <a href="http://localhost:51959/en/contact-us/" class="btn btn-primary">Kontaktirajte nas</a>
+                            <script type="text/javascript">
+                                function testsilver() {
+
+
+                                if ($(window).width() < 768) {
+                                    document.getElementById("silver").href="http://localhost:51959/hr/sponzori/";
+                                } else {
+                                    document.getElementById("silver").href="http://localhost:51959/hr/contact-us/";
+                                }
+                                }
+                            </script>
+                            <a href="#" id="silver" onclick="testsilver()" class="btn btn-primary">Saznaj Više</a> 
                         </div>
                     </td>
 
@@ -86,7 +109,21 @@ Layout = "Master.cshtml";
                             <h4 class="card-title">Bronze Sponzorstvo</h4>
                             <p class="card-text">-Sponzorstvo jedan event (po želji) te opet nesto divno na svijetu</p>
                             <p class="card-text">-Biti će istaknut samo na popisu sponzora te će biti spomenut tijekom održavanja eventa samo učesnicima (lokalno)</p>
-                            <a href="http://localhost:51959/en/contact-us/" class="btn btn-primary">Kontaktirajte nas</a>
+                            
+                            <script type="text/javascript">
+                                function testbronze() {
+
+
+                                if ($(window).width() < 768) {
+                                    document.getElementById("bronze").href="http://localhost:51959/hr/sponzori/";
+                                } else {
+                                    document.getElementById("bronze").href="http://localhost:51959/hr/contact-us/";
+                                }
+                                }
+                            </script>
+                           <a href="#" id="bronze" onclick="testbronze()"  class="btn btn-primary">Saznaj Više</a> 
+                         
+                           
                         </div>
                     </td>
                         </tr>

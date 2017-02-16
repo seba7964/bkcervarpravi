@@ -32,9 +32,9 @@ namespace bkcervar.Controllers
             //var from = new MailAddress(Email.Text);
             mail.From = new MailAddress(model.Email);
             mail.To.Add("seba7964@gmail.com");
-            mail.Subject = "Contact Us";
+            mail.Subject = "Konktaktirajte nas";
             mail.IsBodyHtml = false;
-            mail.Body = "You just got a contact email:\n" +
+            mail.Body = "You just got a contact email: " + model.Email + "\n" +
                         "Name: " + model.Name + "\n"
                         + "Email: " + model.Message + "\n";
 
